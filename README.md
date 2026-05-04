@@ -86,6 +86,8 @@ Hai due strade.
 
 Usala per file piccoli o medi. In questo progetto il limite di upload del Workbench e impostato a 2 GiB con `graphdb.workbench.maxUploadSize=2147483648`.
 
+Su server/Coolify evita questa strada per dataset grandi: il proxy puo interrompere la request multipart prima che GraphDB finisca di riceverla. Per file grandi usa **Import > Server files** come descritto nella guida Coolify.
+
 1. Apri `http://localhost:7200`.
 2. Seleziona il repository `eventour`.
 3. Vai in **Import > User data**.

@@ -104,8 +104,46 @@ Opzioni consigliate:
 
 Per il file `eventour_final_kg_milan.nt`:
 
-- se passi dal browser, usa **Import > User data**;
-- se l'upload via proxy e instabile, carica il file nel volume `graphdb_import` e poi usa **Import > Server files**.
+- evita l'upload browser da **Import > User data**: il file e grande e puo essere interrotto dal proxy prima di arrivare a GraphDB;
+- carica il file nel volume `graphdb_import` e poi usa **Import > Server files**.
+
+### Upload consigliato via SSH
+
+Dal tuo computer, copia il file sul server Coolify:
+
+```bash
+scp eventour_final_kg_milan.nt root@IP_DEL_SERVER:/tmp/eventour_final_kg_milan.nt
+```
+
+Sul server, trova il container GraphDB:
+
+```bash
+docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}" | grep graphdb
+```
+
+Copia il file dentro la cartella import montata nel container:
+
+```bash
+docker cp /tmp/eventour_final_kg_milan.nt NOME_CONTAINER:/opt/graphdb/home/graphdb-import/eventour_final_kg_milan.nt
+```
+
+Poi apri il Workbench e importa da:
+
+```text
+Import > Server files > eventour_final_kg_milan.nt > Import
+```
+
+Se il file e disponibile da un URL scaricabile dal server, puoi anche aprire il terminale del container in Coolify e scaricarlo direttamente:
+
+```bash
+curl -L -o /opt/graphdb/home/graphdb-import/eventour_final_kg_milan.nt "URL_DEL_FILE"
+```
+
+oppure:
+
+```bash
+wget -O /opt/graphdb/home/graphdb-import/eventour_final_kg_milan.nt "URL_DEL_FILE"
+```
 
 Configurazione import consigliata:
 
