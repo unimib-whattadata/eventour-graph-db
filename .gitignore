@@ -1,0 +1,9 @@
+.DS_Store
+
+# File RDF locali: spesso sono grandi e specifici della macchina/dataset.
+*.nt
+import/*
+!import/README.md
+
+# Eventuali directory di lavoro locali se si passa da volume Docker a bind mount.
+graphdb-home/

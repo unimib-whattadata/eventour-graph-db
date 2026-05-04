@@ -1,0 +1,17 @@
+services:
+  graphdb:
+    image: ontotext/graphdb:11.3.2
+    container_name: eventour-graphdb
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:7200:7200"
+    environment:
+      GDB_JAVA_OPTS: "-Xms1g -Xmx2g"
+      graphdb.workbench.importDirectory: "/opt/graphdb/home/graphdb-import"
+      graphdb.workbench.maxUploadSize: "2147483648"
+    volumes:
+      - graphdb_home:/opt/graphdb/home
+      - ./import:/opt/graphdb/home/graphdb-import
+
+volumes:
+  graphdb_home:
