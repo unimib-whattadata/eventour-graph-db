@@ -1,0 +1,8 @@
+services:
+  graphdb:
+    container_name: eventour-graphdb
+    ports:
+      - "${GRAPHDB_HOST:-127.0.0.1}:${GRAPHDB_PORT:-7200}:7200"
+    volumes:
+      - graphdb_home:/opt/graphdb/home
+      - ./import:/opt/graphdb/home/graphdb-import

@@ -12,14 +12,16 @@ Nota pratica: N-Triples non contiene namespace e non supporta named graph nel fi
 
 Requisiti: Docker Desktop o Docker Engine con Docker Compose.
 
+Per avvio locale usa il compose di produzione piu l'override locale:
+
 ```bash
-docker compose up -d
+docker compose -f docker-compose.yml -f docker-compose.local.yml up -d
 ```
 
 Controlla i log:
 
 ```bash
-docker compose logs -f graphdb
+docker compose -f docker-compose.yml -f docker-compose.local.yml logs -f graphdb
 ```
 
 Quando il server e pronto, apri:
@@ -31,10 +33,32 @@ http://localhost:7200
 Per spegnere:
 
 ```bash
-docker compose down
+docker compose -f docker-compose.yml -f docker-compose.local.yml down
 ```
 
 I dati GraphDB sono salvati nel volume Docker `eventour-graphdb_graphdb_home`, quindi sopravvivono al riavvio del container.
+
+## Deploy su Coolify
+
+Il file `docker-compose.yml` di root e pensato anche per produzione/Coolify:
+
+- usa l'immagine ufficiale `ontotext/graphdb`;
+- espone internamente la porta container `7200`;
+- salva i dati in volumi persistenti `graphdb_home` e `graphdb_import`;
+- non pubblica porte host direttamente, lasciando il routing al proxy di Coolify.
+
+Guida passo passo: [docs/coolify.md](docs/coolify.md).
+
+In Coolify configura la risorsa come **Docker Compose** e usa:
+
+```text
+Compose file: docker-compose.yml
+Service: graphdb
+Porta container: 7200
+Dominio esempio: https://graphdb.tuo-dominio.it:7200
+```
+
+Per GraphDB 11 ricordati di caricare la licenza dal Workbench in **Setup > License > Set new license** dopo il primo deploy, oppure di montare il file licenza nel volume persistente. Non committare mai la licenza nel repository.
 
 ## Creare il repository
 
