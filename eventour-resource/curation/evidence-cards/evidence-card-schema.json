@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["city_name", "entity_label", "direct_class_labels"],
+  "properties": {
+    "city_name": {"type": "string"},
+    "entity_label": {"type": "string"},
+    "entity_description": {"type": ["string", "null"]},
+    "direct_class_labels": {"type": "array", "items": {"type": "string"}},
+    "class_ancestor_labels": {"type": "array", "items": {"type": "string"}},
+    "semantic_fact_texts": {"type": "array", "items": {"type": "string"}}
+  }
+}
+

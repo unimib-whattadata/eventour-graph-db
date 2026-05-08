@@ -1,0 +1,157 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-10> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via dell'Allodola - 5" ;
+    dcterms:description "Velocipedi | 4 | 0_Non precisato | Esistente" ;
+    dcterms:identifier "bike_parking:10" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-10> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via dell'Allodola 5" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-13> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via dell'Allodola - 5" ;
+    dcterms:description "Condivisa (Velocipedi, Motocicli e Ciclomotori) | 4 | Archetto Milano _ Acciaio inox _ Passo cm 80 | Esistente" ;
+    dcterms:identifier "bike_parking:13" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-13> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via dell'Allodola 5" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-14> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via Carlo Amoretti - 0" ;
+    dcterms:description "Velocipedi | 20 | Verona | Esistente" ;
+    dcterms:identifier "bike_parking:14" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-14> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Carlo Amoretti 0" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-15> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via Renato Simoni - 0" ;
+    dcterms:description "Velocipedi | 10 | Verona | Esistente" ;
+    dcterms:identifier "bike_parking:15" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-15> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Renato Simoni 0" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-16> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via delle Ande - 4" ;
+    dcterms:description "Velocipedi | 15 | Verona _ Ambrogio | Esistente" ;
+    dcterms:identifier "bike_parking:16" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-16> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via delle Ande 4" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-17> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via degli Anemoni - 10" ;
+    dcterms:description "Velocipedi | 5 | Redondo Inox | Esistente" ;
+    dcterms:identifier "bike_parking:17" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-17> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via degli Anemoni 10" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-3> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Viale Affori - 21" ;
+    dcterms:description "Velocipedi | 30 | Verona _ Ambrogio | Esistente" ;
+    dcterms:identifier "bike_parking:3" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-3> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Viale Affori 21" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-4> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Viale Affori - 21" ;
+    dcterms:description "Velocipedi | 10 | Verona _ Ambrogio | Esistente" ;
+    dcterms:identifier "bike_parking:4" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-4> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Viale Affori 21" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-8> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via Gaetano Airaghi - 42" ;
+    dcterms:description "Velocipedi | 5 | Redondo Inox | Esistente" ;
+    dcterms:identifier "bike_parking:8" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-8> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Gaetano Airaghi 42" .
+
+<https://eventour.org/kg/milan/entity/bike_parking/bike_parking-9> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bike parking - Via Alcuino - 4" ;
+    dcterms:description "Velocipedi | 5 | Redondo Inox | Esistente" ;
+    dcterms:identifier "bike_parking:9" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bike_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-9> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bike_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Alcuino 4" .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-10> a geo:Geometry ;
+    geo:asWKT "POINT (9.120922874441609 45.45516366241593)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-13> a geo:Geometry ;
+    geo:asWKT "POINT (9.120794461522655 45.45513257152298)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-14> a geo:Geometry ;
+    geo:asWKT "POINT (9.145596632171847 45.51937005568351)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-15> a geo:Geometry ;
+    geo:asWKT "POINT (9.145196996056589 45.51898643527991)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-16> a geo:Geometry ;
+    geo:asWKT "POINT (9.124881203134866 45.49422453105315)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-17> a geo:Geometry ;
+    geo:asWKT "POINT (9.129633855652628 45.45479254494064)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-3> a geo:Geometry ;
+    geo:asWKT "POINT (9.167488452098334 45.51692043757462)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-4> a geo:Geometry ;
+    geo:asWKT "POINT (9.168316832668888 45.51697742472398)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-8> a geo:Geometry ;
+    geo:asWKT "POINT (9.084801145102638 45.47628253976166)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bike_parking/bike_parking-9> a geo:Geometry ;
+    geo:asWKT "POINT (9.1567254420346 45.48228029730567)"^^geo:wktLiteral .
+

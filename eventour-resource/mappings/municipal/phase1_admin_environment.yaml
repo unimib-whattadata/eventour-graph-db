@@ -1,0 +1,215 @@
+prefixes:
+  evt: "http://eventour.unimib.it/"
+  geo: "http://www.opengis.net/ont/geosparql#"
+
+defaults:
+  language: "it"
+  crs_uri: "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+  publisher_uri: "http://eventour.unimib.it/organization/comune-di-milano"
+  pipeline_agent_uri: "http://eventour.unimib.it/agent/eventour-pipeline"
+
+datasets:
+
+  ds964_nil_wm:
+    file: "ds964_nil_wm.geojson"
+    type: "geojson"
+    dataset_uri: "dataset/ds964_nil_wm"
+    transform_activity_uri: "activity/transform/ds964_nil_wm/2026-04-29"
+    entity_uri_template: "nil/{ID_NIL}"
+    identifier_field: "ID_NIL"
+    source_identifier_field: "ID_NIL"
+    label_field: "NIL"
+    classes:
+      - "evt:NILArea"
+      - "evt:AdministrativeArea"
+      - "geo:Feature"
+    fields:
+      ID_NIL:
+        property: "dct:identifier"
+        kind: "literal"
+        datatype: "xsd:string"
+      Valido_dal:
+        property: "evt:validFrom"
+        kind: "literal"
+        datatype: "xsd:string"
+        note: "Source date uses Italian day/month/year format; normalize to xsd:date in production if desired."
+      Valido_al:
+        property: "evt:validTo"
+        kind: "literal"
+        datatype: "xsd:string"
+      Fonte:
+        property: "evt:sourceNote"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      Shape_Length:
+        property: "evt:shapeLength"
+        kind: "literal"
+        datatype: "xsd:decimal"
+      Shape_Area:
+        property: "evt:shapeArea"
+        kind: "literal"
+        datatype: "xsd:decimal"
+      OBJECTID:
+        property: "evt:sourceObjectId"
+        kind: "literal"
+        datatype: "xsd:string"
+
+  ds2484_alberi_20240331:
+    file: "ds2484_alberi_20240331.geojson"
+    type: "geojson"
+    dataset_uri: "dataset/ds2484_alberi_20240331"
+    transform_activity_uri: "activity/transform/ds2484_alberi_20240331/2026-04-29"
+    entity_uri_template: "tree/{obj_id}"
+    identifier_field: "obj_id"
+    source_identifier_field: "obj_id"
+    label_template: "{genere} {specie}"
+    classes:
+      - "evt:Tree"
+      - "evt:PhysicalAsset"
+      - "geo:Feature"
+    fields:
+      municipio:
+        property: "evt:inMunicipality"
+        kind: "resource"
+        uri_template: "municipality/{value}"
+      id_area:
+        property: "evt:areaIdentifier"
+        kind: "literal"
+        datatype: "xsd:string"
+      area:
+        property: "evt:areaCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      localita:
+        property: "evt:locality"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      codice:
+        property: "evt:sourceClassificationCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      data_ini:
+        property: "evt:installationDate"
+        kind: "literal"
+        datatype: "xsd:date"
+        transform: "date_prefix"
+      genere:
+        property: "evt:genus"
+        kind: "literal"
+        datatype: "xsd:string"
+      specie:
+        property: "evt:species"
+        kind: "literal"
+        datatype: "xsd:string"
+      varieta:
+        property: "evt:variety"
+        kind: "literal"
+        datatype: "xsd:string"
+      diam_tronc:
+        property: "evt:trunkDiameter"
+        kind: "literal"
+        datatype: "xsd:decimal"
+      diam_chiom:
+        property: "evt:crownDiameter"
+        kind: "literal"
+        datatype: "xsd:decimal"
+      h_m:
+        property: "evt:heightM"
+        kind: "literal"
+        datatype: "xsd:decimal"
+
+  ds2748_panchine:
+    file: "ds2748_panchine.geojson"
+    type: "geojson"
+    dataset_uri: "dataset/ds2748_panchine"
+    transform_activity_uri: "activity/transform/ds2748_panchine/2026-04-29"
+    entity_uri_template: "bench/{obj_id}"
+    identifier_field: "obj_id"
+    source_identifier_field: "obj_id"
+    label_field: "descrizione_codice"
+    classes:
+      - "evt:Bench"
+      - "evt:StreetFurniture"
+      - "evt:PhysicalAsset"
+      - "geo:Feature"
+    fields:
+      municipio:
+        property: "evt:inMunicipality"
+        kind: "resource"
+        uri_template: "municipality/{value}"
+      id_area:
+        property: "evt:areaIdentifier"
+        kind: "literal"
+        datatype: "xsd:string"
+      area:
+        property: "evt:areaCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      località:
+        property: "evt:locality"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      codice:
+        property: "evt:sourceClassificationCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      descrizione_codice:
+        property: "evt:assetDescription"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      data_ini:
+        property: "evt:installationDate"
+        kind: "literal"
+        datatype: "xsd:date"
+        transform: "date_prefix"
+
+  ds2749_tavoli_picnic:
+    file: "ds2749_tavoli_picnic.geojson"
+    type: "geojson"
+    dataset_uri: "dataset/ds2749_tavoli_picnic"
+    transform_activity_uri: "activity/transform/ds2749_tavoli_picnic/2026-04-29"
+    entity_uri_template: "picnic-table/{obj_id}"
+    identifier_field: "obj_id"
+    source_identifier_field: "obj_id"
+    label_field: "descrizione_codice"
+    classes:
+      - "evt:PicnicTable"
+      - "evt:StreetFurniture"
+      - "evt:PhysicalAsset"
+      - "geo:Feature"
+    fields:
+      municipio:
+        property: "evt:inMunicipality"
+        kind: "resource"
+        uri_template: "municipality/{value}"
+      id_area:
+        property: "evt:areaIdentifier"
+        kind: "literal"
+        datatype: "xsd:string"
+      area:
+        property: "evt:areaCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      località:
+        property: "evt:locality"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      codice:
+        property: "evt:sourceClassificationCode"
+        kind: "literal"
+        datatype: "xsd:string"
+      descrizione_codice:
+        property: "evt:assetDescription"
+        kind: "literal"
+        datatype: "rdf:langString"
+        lang: "it"
+      data_ini:
+        property: "evt:installationDate"
+        kind: "literal"
+        datatype: "xsd:date"
+        transform: "date_prefix"

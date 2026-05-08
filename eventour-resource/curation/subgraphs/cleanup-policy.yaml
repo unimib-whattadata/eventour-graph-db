@@ -1,0 +1,16 @@
+drop_property_types:
+  - ExternalId
+  - CommonsMedia
+  - Url
+  - GlobeCoordinate
+fallback_drop_properties:
+  P625: "raw coordinates duplicated outside claims"
+  P373: "Commons category editorial metadata"
+  P910: "topic main category editorial metadata"
+  P935: "Commons gallery editorial metadata"
+  P143: "imported from Wikimedia project editorial metadata"
+drop_value_patterns:
+  - "commons.wikimedia.org/wiki/Special:FilePath/"
+  - "http://www.opengis.net/ont/geosparql#wktLiteral"
+deduplicate_claims: true
+

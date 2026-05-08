@@ -1,0 +1,68 @@
+Eventour RDF quality report
+================================================================================
+Triples: 9110507
+
+Class counts
+--------------------------------------------------------------------------------
+http://eventour.unimib.it/NILArea: 88
+http://eventour.unimib.it/Tree: 247779
+http://eventour.unimib.it/Bench: 30130
+http://eventour.unimib.it/PicnicTable: 478
+http://eventour.unimib.it/Stop: 4820
+http://eventour.unimib.it/RoutePattern: 466
+http://eventour.unimib.it/StopInRoute: 10404
+http://eventour.unimib.it/TimetableSummary: 1199
+http://eventour.unimib.it/BicycleParkingArea: 3249
+http://eventour.unimib.it/BikeSharingStation: 325
+http://eventour.unimib.it/WiFiAccessPoint: 428
+http://eventour.unimib.it/HistoricShop: 626
+http://eventour.unimib.it/PublicToilet: 210
+http://eventour.unimib.it/ParkingFacility: 3323
+http://eventour.unimib.it/EVChargingStation: 483
+http://eventour.unimib.it/DrinkingFountain: 721
+
+Address checks
+--------------------------------------------------------------------------------
+Address literals checked: 10668
+Duplicate street-type addresses like 'Via Via ...': 0
+Numeric-only schema:streetAddress values: 0
+Address nodes with multiple schema:streetAddress values: 0
+
+NIL checks
+--------------------------------------------------------------------------------
+NILArea resources: 88
+Dangling evt:inNIL references: 0
+http://eventour.unimib.it/Tree: missing evt:inNIL 211 / 247779
+http://eventour.unimib.it/Bench: missing evt:inNIL 2 / 30130
+http://eventour.unimib.it/PicnicTable: missing evt:inNIL 0 / 478
+http://eventour.unimib.it/Stop: missing evt:inNIL 1586 / 4820
+http://eventour.unimib.it/BicycleParkingArea: missing evt:inNIL 1 / 3249
+http://eventour.unimib.it/BikeSharingStation: missing evt:inNIL 0 / 325
+http://eventour.unimib.it/WiFiAccessPoint: missing evt:inNIL 1 / 428
+http://eventour.unimib.it/HistoricShop: missing evt:inNIL 0 / 626
+http://eventour.unimib.it/PublicToilet: missing evt:inNIL 0 / 210
+http://eventour.unimib.it/ParkingFacility: missing evt:inNIL 3 / 3323
+http://eventour.unimib.it/EVChargingStation: missing evt:inNIL 0 / 483
+http://eventour.unimib.it/DrinkingFountain: missing evt:inNIL 0 / 721
+
+Geometry / provenance checks
+--------------------------------------------------------------------------------
+Spatial entities: 289877
+Missing geo:hasDefaultGeometry: 0
+Missing dct:source: 0
+Missing prov:wasDerivedFrom: 0
+Missing prov:wasGeneratedBy: 0
+
+Concept URI checks
+--------------------------------------------------------------------------------
+Charging typology concepts used: 6
+Lowercase charging typology URIs: 6
+  http://eventour.unimib.it/charging-typology/c
+  http://eventour.unimib.it/charging-typology/f
+  http://eventour.unimib.it/charging-typology/n
+  http://eventour.unimib.it/charging-typology/nf
+  http://eventour.unimib.it/charging-typology/q
+  http://eventour.unimib.it/charging-typology/qn
+Uppercase charging typology URIs: 0
+
+Report written to output/eventour_quality_report_enriched_fixed.txt

@@ -1,0 +1,6894 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "property",
+      "propertyLabel",
+      "valueEntity",
+      "valueEntityLabel",
+      "valueLiteral",
+      "valueDatatype",
+      "valueLang"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q123119539"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giuseppe Bergomi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20a%20Cristina%20Trivulzio%20di%20Belgiojoso%20%28fronte%29.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20a%20Cristina%20Trivulzio%20di%20Belgiojoso%20%28fronte%29.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q450563"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cristina Trivulzio di Belgiojoso"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Cristina Trivulzio di Belgiojoso (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2021-09-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109768623"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.192375 45.467622222)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q557141"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P136"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "genere"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "arte pubblica"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q77813476"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Sissi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sguardo%20Fisico.png"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sguardo%20Fisico.png"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q14282"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Margherita Hack"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q179700"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "statua"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "9821813039"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Margherita Hack"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2022-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.19349 45.46029)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P6375"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "indirizzo stradale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "largo Richini"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": "it"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q106434460"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P669"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Largo Francesco Richini"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q121148752"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112572397"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P706"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo geografico"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giardino Camilla Cederna"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43689"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Sant'Ambrogio"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q94991410"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luigi Scorzini"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43689"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Sant'Ambrogio"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q839012"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P195"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "collezione"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Palazzo dei Giureconsulti"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q839012"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Palazzo dei Giureconsulti"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Saint Ambrose (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43689"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P547"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "commemora"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Sant'Ambrogio"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125794496"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.188055555 45.465083333)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221522"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giovanni Nepomuceno"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20Cortile%20delle%20Armi%20-%202023-09-28%2021-53-39%20006.JPG"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20Cortile%20delle%20Armi%20-%202023-09-28%2021-53-39%20006.JPG"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221522"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giovanni Nepomuceno"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "5414611343"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to John of Nepomuk (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221522"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P547"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "commemora"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giovanni Nepomuceno"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809217"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.1794562 45.4702626)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3350248"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Oldrado da Tresseno"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%203172%20-%20Milano%2C%20Broletto%20nuovo%2C%20Oldrado%20da%20Tresseno%20-%20Foto%20Giovanni%20Dall%27Orto%2C%203-gen-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%203172%20-%20Milano%2C%20Broletto%20nuovo%2C%20Oldrado%20da%20Tresseno%20-%20Foto%20Giovanni%20Dall%27Orto%2C%203-gen-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3350248"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Oldrado da Tresseno"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Oldrado da Tresseno (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3350248"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P547"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "commemora"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Oldrado da Tresseno"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125809237"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.187759 45.464708)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1405606"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Andrea Verga"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16030784"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giulio Branca"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%205675%20-%20Monumento%20ad%20Andrea%20Verga%20%281811-1895%29%20-%20Foto%20Giovanni%20Dall%27Orto%20-%2021-feb-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%205675%20-%20Monumento%20ad%20Andrea%20Verga%20%281811-1895%29%20-%20Foto%20Giovanni%20Dall%27Orto%20-%2021-feb-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1405606"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Andrea Verga"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2542055076"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Andrea Verga (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1405606"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P547"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "commemora"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Andrea Verga"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126003846"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.1929877 45.4596614)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q125212330"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Patricia Viel"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q601610"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Antonio Citterio"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q259209"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "archeologia industriale"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4989906"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1651"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo YouTube di un video"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "gUiHJbAIR0Y"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2048"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "altezza"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "60"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q170980"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P460"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "considerato essere uguale a"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "obelisco"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.205409629 45.437876405)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P6375"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "indirizzo stradale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Viale Ortles, 60, Milano"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": "it"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "https://milano.repubblica.it/cronaca/2020/09/05/news/da_ciminiera_a_torre_del_vento_a_milano_l_idea_verde_dopo_la_fabbrica-266303856/"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q134567361"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P854"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "URL di riferimento"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "https://milano.repubblica.it/cronaca/2020/09/05/news/da_ciminiera_a_torre_del_vento_a_milano_l_idea_verde_dopo_la_fabbrica-266303856/"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q557141"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P136"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "genere"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "arte pubblica"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q659396"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P136"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "genere"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "statua equestre"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141068"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Riccardo Ripamonti"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20Monumento%20Missori%20%28cropped%29.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20Monumento%20Missori%20%28cropped%29.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3108100"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giuseppe Missori"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q726"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Equus ferus caballus"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4989906"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "611066173"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11c7wbmfjn"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30120052"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "corso di Porta Romana"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q56697587"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "corso Italia"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P3134"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo TripAdvisor"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "10686393"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Giuseppe Missori (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3108100"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P547"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "commemora"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giuseppe Missori"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1916-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21141701"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.1881 45.4611)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q381955"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P126"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "gestore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "ATM"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q381955"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P137"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "operatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "ATM"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2362714"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via Monte Napoleone"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q735559"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P16"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "sistema di trasporto"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "metropolitana di Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20stazione%20Montenapoleone%20M3.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20stazione%20Montenapoleone%20M3.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2259340"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P197"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione adiacente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Turati"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2519375"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P197"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione adiacente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Duomo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P30"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "continente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Europa"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q22808403"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione sotterranea"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q928830"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione metropolitana"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2519355"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P81"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "linea di collegamento"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "linea M3"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1103"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "binari"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "9836271855"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1619"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di apertura ufficiale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1990-05-03T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q24192067"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2846"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "accessibilità alle persone con disabilità"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "accessibile alle persone con disabilità motorie"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79896277"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P3610"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "zona tariffaria"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Mi1"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Montenapoleone station (Milan metro)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1981-09-08T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55654238"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P5817"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stato d'uso"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "in uso"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.1929 45.47013)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P646"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Freebase"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/m/0b741kj"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q107478604"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P669"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via dei Giardini"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4010663"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P669"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "via Manzoni"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q135660939"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2258690"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P833"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione di interscambio"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Montenapoleone M3"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q381955"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P126"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "gestore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "ATM"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q381955"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P127"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "proprietario"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "ATM"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q608405"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "cimitero monumentale di Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q735559"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P16"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "sistema di trasporto"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "metropolitana di Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumentale%20stazione.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumentale%20stazione.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1087026"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P197"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione adiacente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Garibaldi FS"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3664398"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P197"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione adiacente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cenisio"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P30"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "continente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Europa"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q22808403"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione sotterranea"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q928830"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione metropolitana"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3238963"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P81"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "linea di collegamento"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "linea M5"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1103"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "binari"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "10036502941"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1619"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di apertura ufficiale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2015-10-11T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Panneau%20Station%20Monumentale%20M%C3%A9tro%20Milan%20Ligne%205%20-%20Milan%20%28IT25%29%20-%202022-09-04%20-%201.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1766"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine del cartello del luogo"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Panneau%20Station%20Monumentale%20M%C3%A9tro%20Milan%20Ligne%205%20-%20Milan%20%28IT25%29%20-%202022-09-04%20-%201.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1877541"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1889"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "distinto da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Monumental"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21007048"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1889"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "distinto da"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "Q21007048"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/1hb_dbhp5"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q24192067"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2846"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "accessibilità alle persone con disabilità"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "accessibile alle persone con disabilità motorie"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79896277"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P3610"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "zona tariffaria"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Mi1"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monumentale station (Milan metro)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P454"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Structurae"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "20059937"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2010-11-22T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55654238"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P5817"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stato d'uso"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "in uso"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.17877 45.4852)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q135661008"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P833"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stazione di interscambio"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Monumentale M5"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q657345"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P912"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "struttura presente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "biglietteria automatica"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Acc%C3%A8s%20Station%20Monumentale%20M%C3%A9tro%20Milan%20Piazzale%20Cimiterio%20Monumentale%20-%20Milan%20%28IT25%29%20-%202022-09-04%20-%202.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862568"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P9721"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine dell'entrata"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Acc%C3%A8s%20Station%20Monumentale%20M%C3%A9tro%20Milan%20Piazzale%20Cimiterio%20Monumentale%20-%20Milan%20%28IT25%29%20-%202022-09-04%20-%202.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1233"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P138"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "prende il nome da"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Sandro Pertini"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q595448"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P149"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "stile architettonico"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "architettura postmoderna"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q322953"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Aldo Rossi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20monumento%20a%20Sandro%20Pertini.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano%20-%20monumento%20a%20Sandro%20Pertini.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q322953"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P84"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "architetto"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Aldo Rossi"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P10689"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un percorso"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "252785900"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/119pgbj7m"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Sandro Pertini monument (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P5383"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo archINFORM di un progetto"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "242"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1990-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3862626"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.192351944 45.470301111)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23017981"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Antonio Carminati (scultore)"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/9311-%20Milano%20-%20Giardini%20Pubblici%20-%20Monumento%20a%20Emilio%20De%20Marchi%20%281851-1901%29%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Apr-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/9311-%20Milano%20-%20Giardini%20Pubblici%20-%20Monumento%20a%20Emilio%20De%20Marchi%20%281851-1901%29%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Apr-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "6438238126"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11h9xj1zkh"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q169090"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "giardini pubblici Indro Montanelli"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Emilio De Marchi (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1905-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44724894"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.19872 45.47522)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q924880"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Francesco Barzaghi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Giuseppe%20Balzaretto%20in%20Milan.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Giuseppe%20Balzaretto%20in%20Milan.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3770050"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giuseppe Balzaretto"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "6438290625"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11f31p39bm"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q169090"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "giardini pubblici Indro Montanelli"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Giuseppe Balzaretto (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1876-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44727890"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.19971 45.4749)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q761843"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Enrico Butti"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/9378%20-%20Milano%20-%20Giardini%20Pubblici%20-%20Monumento%20a%20Giuseppe%20Sirtori%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Apr-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/9378%20-%20Milano%20-%20Giardini%20Pubblici%20-%20Monumento%20a%20Giuseppe%20Sirtori%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Apr-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3108147"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giuseppe Sirtori"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1855655696"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11gdrtgvxp"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q169090"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P276"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "luogo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "giardini pubblici Indro Montanelli"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Giuseppe Sirtori (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1892-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44783429"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.20058 45.47381)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q557141"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P136"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "genere"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "arte pubblica"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3266543"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Luigi Secchi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Secchi%20%281853-1921%29%20Monumento%20a%20Giulio%20Ricordi%20%28pre%201922%29.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Secchi%20%281853-1921%29%20Monumento%20a%20Giulio%20Ricordi%20%28pre%201922%29.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q225820"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giulio Ricordi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40861"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "marmo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q179700"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "statua"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11fdl7xjkk"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Giulio Ricordi"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1922-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57312417"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.18927 45.46709)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q106040815"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P127"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "proprietario"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Axa Investment Managers"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16560"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "palazzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q190148"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P84"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "architetto"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Renzo Piano"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1101"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "numero di piani"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "5"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P1139"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "piani entro terra"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P281"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "codice postale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "20149"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113438630"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P466"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "residente"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "24ORE Business School"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "2004-01-01T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.145015707 45.478052012)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q716737"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P631"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "ingegnere strutturale"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Arup"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P6375"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "indirizzo stradale"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Via Monte Rosa, 91, Milano"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": "it"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27136782"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60839096"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P793"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "evento significativo"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "inizio dei lavori di costruzione"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q557141"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P136"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "genere"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "arte pubblica"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/3392%20-%20Milano%20-%20Monumento%20a%20Cristoforo%20Colombo%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Jun-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/3392%20-%20Milano%20-%20Monumento%20a%20Cristoforo%20Colombo%20-%20Foto%20Giovanni%20Dall%27Orto%2022-Jun-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7322"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cristoforo Colombo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q179700"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "statua"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11h1fz01ph"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P3711"
+        },
+        "propertyLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vanderkrogt.net Statues ID"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "itlo001"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Christopher Columbus (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63639911"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.20014 45.47081)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q313828"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Ivan Meštrović"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruggero%20Boscovich%2C%20porta%20Venezia.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruggero%20Boscovich%2C%20porta%20Venezia.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q860861"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "scultura"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "4778446240"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2048"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "altezza"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "280"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11fl7q2l14"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Ruđer Bošković (porta Venezia, Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63859459"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.20341 45.47353)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3266543"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Luigi Secchi"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Secchi%2C%20Busto%20di%20Cesare%20Correnti%2C%201901.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Secchi%2C%20Busto%20di%20Cesare%20Correnti%2C%201901.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1093375"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cesare Correnti"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5003624"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "monumento commemorativo"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P11693"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo OpenStreetMap di un nodo"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "3627205088"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11h_z7hxlk"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Cesare Correnti"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P571"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "data di fondazione o creazione"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "1901-11-24T00:00:00Z"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q69548440"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.17778 45.4589)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P131"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "unità amministrativa in cui è situato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Milano"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P17"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Paese"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Italia"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q64578286"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P170"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "creatore"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Ivo Soli"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%205320%20-%20Milano%20-%20Monumento%20a%20Carlo%20Porta%20-%20Foto%20giovanni%20Dall%27Orto%20-%2017-Febr-2007.jpg"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P18"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "immagine"
+        },
+        "valueEntityLabel": {
+          "type": "literal",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%205320%20-%20Milano%20-%20Monumento%20a%20Carlo%20Porta%20-%20Foto%20giovanni%20Dall%27Orto%20-%2017-Febr-2007.jpg"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1248697"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P180"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "raffigura"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Carlo Porta"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34095"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P186"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "materiale usato"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "bronzo"
+        }
+      },
+      {
+        "valueEntity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q179700"
+        },
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P31"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "istanza di"
+        },
+        "valueEntityLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "statua"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P2671"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "identificativo Google Knowledge Graph"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "/g/11lgxmqyqy"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P373"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "categoria su Commons"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Monument to Carlo Porta (Milan)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q73982391"
+        },
+        "property": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/P625"
+        },
+        "propertyLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "coordinate geografiche"
+        },
+        "valueLiteral": {
+          "type": "literal",
+          "value": "Point(9.195052 45.462732)"
+        },
+        "valueDatatype": {
+          "type": "uri",
+          "value": "http://www.opengis.net/ont/geosparql#wktLiteral"
+        },
+        "valueLang": {
+          "type": "literal",
+          "value": ""
+        }
+      }
+    ]
+  }
+}

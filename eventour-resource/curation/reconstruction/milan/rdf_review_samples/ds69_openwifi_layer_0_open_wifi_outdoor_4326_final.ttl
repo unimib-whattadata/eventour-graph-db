@@ -1,0 +1,157 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-0> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "CSPiazzaleAccursio5-04" ;
+    dcterms:description "8 | QUARTO OGGIARO - VIALBA - MUSOCCO | 20157" ;
+    dcterms:identifier "openwifi:0" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-0> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via SIMONI RENATO 15" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-1> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "CSPiazzaleAccursio5-02" ;
+    dcterms:description "9 | COMASINA | 20161" ;
+    dcterms:identifier "openwifi:1" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-1> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via FORNI GEROLAMO 36" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-2> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "CSPiazzaleAccursio5-03" ;
+    dcterms:description "9 | BOVISASCA | 20157" ;
+    dcterms:identifier "openwifi:2" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-2> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via CEVA UMBERTO 2A" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-3> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "CSViaBaldinucci76-01" ;
+    dcterms:description "9 | PARCO NORD | 20161" ;
+    dcterms:identifier "openwifi:3" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-3> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Piazzale MARTIRI DELLA DEPORTAZIONE 1" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-4> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "enGuerzoni02" ;
+    dcterms:description "4 | XXII MARZO | 20129" ;
+    dcterms:identifier "openwifi:4" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-4> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via FIAMMA GALVANO 10" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-5> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "enLivigno02" ;
+    dcterms:description "1 | GUASTALLA | 20122" ;
+    dcterms:identifier "openwifi:5" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-5> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via SAN BARNABA 2" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-6> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "enProcaccini-01" ;
+    dcterms:description "4 | LODI - CORVETTO | 20139" ;
+    dcterms:identifier "openwifi:6" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-6> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via OGLIO 18P01" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-7> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "enProcaccini-02" ;
+    dcterms:description "5 | STADERA - CHIESA ROSSA - Q.RE TORRETTA - CONCA FALLATA | 20141" ;
+    dcterms:identifier "openwifi:7" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-7> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via SAVIO DOMENICO (SAN) 3" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-8> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "csPzzScala01" ;
+    dcterms:description "1 | DUOMO | 20121" ;
+    dcterms:identifier "openwifi:8" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-8> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Piazza SCALA (DELLA)" .
+
+<https://eventour.org/kg/milan/entity/openwifi/openwifi-9> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "arunPanza01" ;
+    dcterms:description "2 | GORLA - PRECOTTO | 20126" ;
+    dcterms:identifier "openwifi:9" ;
+    dcterms:source <https://eventour.org/kg/milan/source/openwifi> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/openwifi/openwifi-9> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/openwifi> ;
+    ev:hasPrimaryFamily ev:SupportService ;
+    schema:streetAddress "Via BREDA ERNESTO 176" .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-0> a geo:Geometry ;
+    geo:asWKT "POINT (9.14502 45.51833)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-1> a geo:Geometry ;
+    geo:asWKT "POINT (9.16676 45.52502)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-2> a geo:Geometry ;
+    geo:asWKT "POINT (9.15559 45.51625)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-3> a geo:Geometry ;
+    geo:asWKT "POINT (9.18105 45.52896)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-4> a geo:Geometry ;
+    geo:asWKT "POINT (9.21142 45.46333)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-5> a geo:Geometry ;
+    geo:asWKT "POINT (9.19613 45.45941)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-6> a geo:Geometry ;
+    geo:asWKT "POINT (9.21784 45.44037)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-7> a geo:Geometry ;
+    geo:asWKT "POINT (9.17341 45.43054)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-8> a geo:Geometry ;
+    geo:asWKT "POINT (9.18981 45.46687)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/openwifi/openwifi-9> a geo:Geometry ;
+    geo:asWKT "POINT (9.2221 45.52126)"^^geo:wktLiteral .
+

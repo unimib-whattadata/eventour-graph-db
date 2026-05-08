@@ -1,0 +1,17 @@
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?poi ?label ?categoryLabel ?nil
+WHERE {
+  ?poi a evt:Place ;
+       evt:hasEventourRole <http://eventour.unimib.it/role/primary-poi> ;
+       evt:inNIL ?nil ;
+       rdfs:label ?label ;
+       geo:hasDefaultGeometry ?geometry .
+  OPTIONAL { ?poi evt:hasEventourCategory/skos:prefLabel ?categoryLabel . }
+}
+ORDER BY LCASE(STR(?label))
+LIMIT 100
+

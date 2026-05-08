@@ -1,0 +1,35 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+
+
+# CQ6. Which NIL areas have the richest urban support infrastructure?
+################################################################################
+
+SELECT ?nil ?nilLabel
+       (COUNT(DISTINCT ?bench) AS ?benches)
+       (COUNT(DISTINCT ?fountain) AS ?drinkingFountains)
+       (COUNT(DISTINCT ?toilet) AS ?publicToilets)
+       (COUNT(DISTINCT ?stop) AS ?stops)
+       (COUNT(DISTINCT ?bikeStation) AS ?bikeSharingStations)
+WHERE {
+  ?nil a evt:NILArea .
+  OPTIONAL { ?nil rdfs:label ?nilLabel . }
+  OPTIONAL { ?bench a evt:Bench ; evt:inNIL ?nil . }
+  OPTIONAL { ?fountain a evt:DrinkingFountain ; evt:inNIL ?nil . }
+  OPTIONAL { ?toilet a evt:PublicToilet ; evt:inNIL ?nil . }
+  OPTIONAL { ?stop a evt:Stop ; evt:inNIL ?nil . }
+  OPTIONAL { ?bikeStation a evt:BikeSharingStation ; evt:inNIL ?nil . }
+}
+GROUP BY ?nil ?nilLabel
+ORDER BY DESC(?benches + ?drinkingFountains + ?publicToilets + ?stops + ?bikeSharingStations)
+LIMIT 50
+
+################################################################################

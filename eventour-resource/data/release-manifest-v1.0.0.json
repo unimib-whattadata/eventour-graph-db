@@ -1,0 +1,41 @@
+{
+  "version": "v1.0.0",
+  "doi": "https://doi.org/10.5281/zenodo.20076141",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "created": "2026-05-07",
+  "canonical_namespace": "http://eventour.unimib.it/",
+  "city_namespace": "http://eventour.unimib.it/milan/",
+  "statistics": {
+    "data_graph_triples": 9374065,
+    "ontology_triples": 593,
+    "kg_nt_line_count_with_patched_ontology_appended": 9374658,
+    "estimated_distinct_triples_when_data_and_patched_ontology_are_loaded_together": 9374232,
+    "ontology_classes": 37,
+    "ontology_properties": 123,
+    "official_source_datasets": 21,
+    "wikidata_primary_pois": 1114,
+    "wikidata_secondary_pois": 892,
+    "wikidata_context_entities": 1282
+  },
+  "files": [
+    {
+      "name": "eventour-milan-v1.0.0.nt.gz",
+      "type": "KG dump",
+      "format": "N-Triples gzip",
+      "sha256": "3379ef563aa466bb1a5e72c0f6323f0d8980c1208da48d6688096a6a871c06ce"
+    },
+    {
+      "name": "eventour-ontology-v1.0.0.ttl",
+      "type": "Ontology",
+      "format": "Turtle",
+      "sha256": "8a551a3879f2554a402324725811b4518f3204cecd7fce1abf4411d48989e6bd"
+    },
+    {
+      "name": "eventour-ontology-v1.0.0.nt",
+      "type": "Ontology",
+      "format": "N-Triples",
+      "sha256": "c6f06f22d411806381de2129f98f113737cb70418e767b8952ce0d52170db18b"
+    }
+  ]
+}

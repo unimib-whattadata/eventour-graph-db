@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Full release dumps are distributed through Zenodo/GitHub Releases.
+data/final/*.nt
+data/final/*.nt.gz
+data/final/*.ttl.gz
+data/final/*.zip
+data/work/*
+!data/work/.gitkeep
+
+# Raw municipal source snapshots are downloaded from Comune di Milano as needed.
+data/source-snapshots/geojson/*
+!data/source-snapshots/geojson/.gitkeep
+
+# Older raw municipal CSV snapshots used by the application prototype are
+# replaced by URL catalogs in the release repository.
+app/itinerary-generation/data-integration/data-integration/datasets/ds*.csv
+app/itinerary-generation/data-integration/data-integration/datasets/openwifi_layer_0_open_wifi_outdoor_4326_final.csv
+app/itinerary-generation/data-integration/data-integration/datasets/vedovelle_20240708-001843_final.csv
+app/itinerary-generation/data-integration/data-integration/datasets/nil/*.csv
+
+# Generated reconstruction artifacts archived in Zenodo or regenerated locally.
+curation/reconstruction/milan/rdf/*
+!curation/reconstruction/milan/rdf/README.md
+curation/reconstruction/milan/integrated/*.csv
+curation/reconstruction/milan/integrated/*.json
+!curation/reconstruction/milan/integrated/README.md
+
+*.log

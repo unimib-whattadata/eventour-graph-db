@@ -1,0 +1,16 @@
+[project]
+name = "eventour-resource"
+version = "1.0.0"
+description = "Resource package for the Eventour Milan urban knowledge graph"
+requires-python = ">=3.11"
+dependencies = [
+  "rdflib",
+  "pyshacl",
+  "geopandas",
+  "shapely",
+  "fiona",
+  "pyyaml",
+  "pandas",
+  "openpyxl",
+  "openai"
+]

@@ -1,0 +1,148 @@
+{
+  "datasets": [
+    {
+      "dataset_file": "areab_varchi.geojson",
+      "source_id": "area_b_gates",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/areab_varchi"
+    },
+    {
+      "dataset_file": "bike_areesosta.geojson",
+      "source_id": "bike_parking",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/bike_areesosta"
+    },
+    {
+      "dataset_file": "bikemi_stazioni.geojson",
+      "source_id": "bikemi_stations",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/bikemi_stazioni"
+    },
+    {
+      "dataset_file": "ds2484_alberi_20240331.geojson",
+      "source_id": "trees",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds2484_alberi_20240331"
+    },
+    {
+      "dataset_file": "ds2748_panchine.geojson",
+      "source_id": "benches",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds2748_panchine"
+    },
+    {
+      "dataset_file": "ds2749_tavoli_picnic.geojson",
+      "source_id": "picnic_tables",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds2749_tavoli_picnic"
+    },
+    {
+      "dataset_file": "ds290_economia_botteghe_storiche_2024.geojson",
+      "source_id": "historic_shops",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds290_economia_botteghe_storiche_2024"
+    },
+    {
+      "dataset_file": "ds630_servizi_igienici_pubblici_final.geojson",
+      "source_id": "public_toilets",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds630_servizi_igienici_pubblici_final"
+    },
+    {
+      "dataset_file": "ds69_openwifi_layer_0_open_wifi_outdoor_4326_final.geojson",
+      "source_id": "openwifi",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds69_openwifi_layer_0_open_wifi_outdoor_4326_final"
+    },
+    {
+      "dataset_file": "ds964_nil_wm.geojson",
+      "source_id": "nils",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ds964_nil_wm"
+    },
+    {
+      "dataset_file": "ingressi_areac_varchi.geojson",
+      "source_id": "area_c_gates",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ingressi_areac_varchi"
+    },
+    {
+      "dataset_file": "open-meteo-descriptions.json",
+      "source_id": "open_meteo_descriptions",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/open-meteo-descriptions"
+    },
+    {
+      "dataset_file": "park_interscambio.geojson",
+      "source_id": "park_and_ride",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/park_interscambio"
+    },
+    {
+      "dataset_file": "park_pub.geojson",
+      "source_id": "public_parking",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/park_pub"
+    },
+    {
+      "dataset_file": "ricarica_colonnine.geojson",
+      "source_id": "charging_stations",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/ricarica_colonnine"
+    },
+    {
+      "dataset_file": "tpl_fermate.geojson",
+      "source_id": "tpl_surface_stops",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_fermate"
+    },
+    {
+      "dataset_file": "tpl_metrofermate.geojson",
+      "source_id": "tpl_metro_stops",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_metrofermate"
+    },
+    {
+      "dataset_file": "tpl_metroorari.geojson",
+      "source_id": "tpl_metro_schedules",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_metroorari"
+    },
+    {
+      "dataset_file": "tpl_metropercorsi.geojson",
+      "source_id": "tpl_metro_routes",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_metropercorsi"
+    },
+    {
+      "dataset_file": "tpl_metrosequenza.geojson",
+      "source_id": "tpl_metro_route_sequences",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_metrosequenza"
+    },
+    {
+      "dataset_file": "tpl_orari.geojson",
+      "source_id": "tpl_surface_schedules",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_orari"
+    },
+    {
+      "dataset_file": "tpl_percorsi.geojson",
+      "source_id": "tpl_surface_routes",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_percorsi"
+    },
+    {
+      "dataset_file": "tpl_sequenza.geojson",
+      "source_id": "tpl_surface_route_sequences",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/tpl_sequenza"
+    },
+    {
+      "dataset_file": "vedovelle_20260315-233003_final.geojson",
+      "source_id": "vedovelle",
+      "sample_count": 10,
+      "output_base": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/rdf_review_samples/vedovelle_20260315-233003_final"
+    }
+  ]
+}

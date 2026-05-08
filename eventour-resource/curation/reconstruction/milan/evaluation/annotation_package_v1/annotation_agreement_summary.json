@@ -1,0 +1,106 @@
+{
+  "n_items": 758,
+  "human_decision_agreement": {
+    "pairwise": {
+      "serena_blerina": {
+        "n": 758,
+        "percent_agreement": 91.95,
+        "cohen_kappa": 0.4227
+      },
+      "serena_fabio": {
+        "n": 758,
+        "percent_agreement": 94.99,
+        "cohen_kappa": 0.6216
+      },
+      "blerina_fabio": {
+        "n": 758,
+        "percent_agreement": 92.08,
+        "cohen_kappa": 0.5044
+      }
+    },
+    "fleiss_kappa": 0.5133,
+    "unanimous_rate": 90.11,
+    "majority_resolved_rate": 98.81,
+    "all_different_rate": 1.19,
+    "majority_label_distribution": {
+      "keep_context": 9,
+      "exclude": 707,
+      "keep_poi": 33
+    }
+  },
+  "human_category_agreement_keep_poi_only": {
+    "pairwise_when_both_keep_poi": {
+      "serena_blerina": {
+        "n": 21,
+        "percent_agreement": 42.86
+      },
+      "serena_fabio": {
+        "n": 25,
+        "percent_agreement": 36.0
+      },
+      "blerina_fabio": {
+        "n": 29,
+        "percent_agreement": 37.93
+      }
+    },
+    "all_three_keep_poi_count": 21,
+    "all_three_keep_poi_unanimous_category_rate": 38.1
+  },
+  "llm_vs_provisional_human": {
+    "decision_accuracy_vs_majority": 12.28,
+    "decision_accuracy_vs_unanimous_subset": 12.59,
+    "decision_eval_majority_n": 749,
+    "decision_eval_unanimous_n": 683,
+    "category_accuracy_vs_majority_keep_poi": 33.33,
+    "category_accuracy_vs_unanimous_keep_poi": 12.5,
+    "category_eval_majority_keep_poi_n": 27,
+    "category_eval_unanimous_keep_poi_n": 8,
+    "decision_confusion_majority_vs_llm": {
+      "keep_context__candidate_exception": 8,
+      "exclude__candidate_exception": 488,
+      "keep_poi__candidate_exception": 13,
+      "exclude__keep_poi": 86,
+      "keep_poi__keep_poi": 13,
+      "keep_context__keep_poi": 1,
+      "exclude__keep_context": 54,
+      "keep_poi__keep_context": 6,
+      "exclude__exclude": 79,
+      "keep_poi__exclude": 1
+    }
+  },
+  "llm_review_signal": {
+    "flagged_review_among_unanimous": 78.18,
+    "flagged_review_among_disagreement": 73.33,
+    "counts": {
+      "disagreement__True": 55,
+      "unanimous__True": 534,
+      "unanimous__False": 149,
+      "disagreement__False": 11
+    }
+  },
+  "llm_routing_view": {
+    "llm_decision_distribution_on_majority_resolved_items": {
+      "candidate_exception": 509,
+      "keep_poi": 100,
+      "keep_context": 60,
+      "exclude": 80
+    },
+    "llm_non_candidate_exception_accuracy_on_items_it_classified": 38.33,
+    "llm_non_candidate_exception_n": 240,
+    "llm_needs_review_rate_by_majority_label": {
+      "keep_poi": 66.67,
+      "keep_context": 88.89,
+      "exclude": 79.07
+    },
+    "llm_mean_confidence_by_majority_label": {
+      "keep_context": 0.792,
+      "exclude": 0.751,
+      "keep_poi": 0.667
+    }
+  },
+  "method_note": {
+    "human_gold_status": "not_adjudicated",
+    "comparison_target": "provisional human aggregate based on majority vote; unanimous subset reported separately",
+    "important_caveat": "The LLM includes candidate_exception as a review-routing label, while human annotators used only keep_poi, keep_context, and exclude as final labels."
+  }
+}

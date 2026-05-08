@@ -1,0 +1,602 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-7",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:7"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-7"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - PIAZZA DELL'OSPEDALE MAGGIORE 10"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "PIAZZA DELL'OSPEDALE MAGGIORE 10"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-1",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.112836716769262 45.455714852139025)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-3",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.135338391135745 45.50736317455705)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-1",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:1"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA LUCCA 14"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA LUCCA 14"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-6",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:6"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA THAON DI REVEL GENOVA"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA THAON DI REVEL GENOVA"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-11",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 8 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:11"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA HOEPLI ULRICO 10"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA HOEPLI ULRICO 10"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-2",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.136118481700265 45.46140967001381)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-9",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:9"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA IMBONATI CARLO 22"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA IMBONATI CARLO 22"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-13",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.193577136163894 45.46214903249133)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-7",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.190289498117812 45.50864763853189)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-9",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.182778055701455 45.50099305145913)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-12",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:12"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-12"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - CORSO LODI 5"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "CORSO LODI 5"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-6",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.189085164950326 45.490791557419435)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-12",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.203632845136882 45.45145709249813)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-2",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:2"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - PIAZZALE GIOVANNI DALLE BANDE NERE 9"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "PIAZZALE GIOVANNI DALLE BANDE NERE 9"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-8",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.16081315757179 45.503247108875634)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-3",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:3"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA FATTORI GIOVANNI 6"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA FATTORI GIOVANNI 6"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-11",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.192662856906859 45.46641591104112)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-8",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:8"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - PIAZZA ALFIERI EMILIO"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "PIAZZA ALFIERI EMILIO"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/charging_stations/charging_stations-13",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "A2A Energy Solutions | 4 | AC Normal | QN"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "charging_stations:13"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/charging_stations/charging_stations-13"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Charging station - VIA LARGA 7"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/charging_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "VIA LARGA 7"
+      }
+    ]
+  }
+]

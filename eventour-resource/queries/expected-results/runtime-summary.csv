@@ -1,0 +1,12 @@
+query,purpose,result_count,runtime_seconds,notes
+CQ01,count Wikidata places by Eventour role,3,0.000,role counts
+CQ02,retrieve entities in NIL 1,3097,0.012,local WKT evaluation
+CQ03,primary POI-stop pairs within 300m,200,0.085,limit reached
+CQ04,toilets/fountains within 250m of primary POIs,300,0.131,limit reached
+CQ05,event-near secondary POI-stop rows,100,0.034,limit reached
+CQ06,NIL infrastructure profiles,50,0.000,limit reached
+CQ07,underserved primary POIs returned,100,0.185,limit reached
+CQ08,primary POI accessibility profiles,100,0.000,limit reached
+CQ09,provenance rows for selected Wikidata place,1,0.000,use Q1649868 or Q338472
+CQ10,ranked primary POI support profiles,100,0.000,limit reached
+

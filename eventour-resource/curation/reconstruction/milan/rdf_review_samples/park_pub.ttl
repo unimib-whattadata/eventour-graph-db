@@ -1,0 +1,157 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-11> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Giulio Cesare" ;
+    dcterms:description "RESIDENTI/PUBBLICI | 116.0 | Milano" ;
+    dcterms:identifier "public_parking:11" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-11> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Piazza Giulio Cesare" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-14> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Puccini" ;
+    dcterms:description "RESIDENTI/PUBBLICI | 184.0 | Milano" ;
+    dcterms:identifier "public_parking:14" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-14> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Puccini" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-15> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Mascagni" ;
+    dcterms:description "RESIDENTI/PUBBLICI | 222.0 | Milano" ;
+    dcterms:identifier "public_parking:15" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-15> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Mascagni" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-16> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Majno" ;
+    dcterms:description "RESIDENTI/PUBBLICI | 163.0 | Milano" ;
+    dcterms:identifier "public_parking:16" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-16> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Viale Majno" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-17> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Gramsci" ;
+    dcterms:description "RESIDENTI/PUBBLICI | 122.0 | Milano" ;
+    dcterms:identifier "public_parking:17" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-17> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Piazza Gramsci" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-23> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Vittor Pisani" ;
+    dcterms:description "PUBBLICI | 964.0 | Milano" ;
+    dcterms:identifier "public_parking:23" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-23> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Vittor Pisani" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-42> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "San Barnaba" ;
+    dcterms:description "PUBBLICI | 750.0 | Milano" ;
+    dcterms:identifier "public_parking:42" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-42> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "San Barnaba" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-44> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "U3 Portello" ;
+    dcterms:description "AUTORIMESSA CONVENZIONATA | 706.0 | Milano" ;
+    dcterms:identifier "public_parking:44" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-44> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Scarampo" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-45> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Bicocca P7" ;
+    dcterms:description "PUBBLICI | 712.0 | Milano" ;
+    dcterms:identifier "public_parking:45" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-45> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Vizzola / Innovazione" .
+
+<https://eventour.org/kg/milan/entity/public_parking/public_parking-50> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Dateo nord" ;
+    dcterms:description "PUBBLICI/RESIDENTI | 183.0 | Milano" ;
+    dcterms:identifier "public_parking:50" ;
+    dcterms:source <https://eventour.org/kg/milan/source/public_parking> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/public_parking/public_parking-50> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/public_parking> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Piazzale Dateo" .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-11> a geo:Geometry ;
+    geo:asWKT "POINT (9.155567631859647 45.47376994844666)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-14> a geo:Geometry ;
+    geo:asWKT "POINT (9.179751245615956 45.46719100817788)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-15> a geo:Geometry ;
+    geo:asWKT "POINT (9.202610228164545 45.46611148706978)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-16> a geo:Geometry ;
+    geo:asWKT "POINT (9.205405998137975 45.47251691690329)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-17> a geo:Geometry ;
+    geo:asWKT "POINT (9.168613066918466 45.48154455747949)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-23> a geo:Geometry ;
+    geo:asWKT "POINT (9.201387633091805 45.48322081813357)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-42> a geo:Geometry ;
+    geo:asWKT "POINT (9.197576155297082 45.45944060384233)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-44> a geo:Geometry ;
+    geo:asWKT "POINT (9.145972916049502 45.48554073430118)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-45> a geo:Geometry ;
+    geo:asWKT "POINT (9.213437490350929 45.51602203842785)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/public_parking/public_parking-50> a geo:Geometry ;
+    geo:asWKT "POINT (9.216344540519957 45.468368157861626)"^^geo:wktLiteral .
+

@@ -1,0 +1,34 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+
+
+# CQ3. Which primary POIs are within 300 metres of a public transport stop?
+# Requires GeoSPARQL distance support.
+################################################################################
+
+SELECT ?poi ?poiLabel ?stop ?stopLabel ?distanceM
+WHERE {
+  ?poi a evt:Place ;
+       evt:hasEventourRole <http://eventour.unimib.it/role/primary-poi> ;
+       rdfs:label ?poiLabel ;
+       geo:hasDefaultGeometry/geo:asWKT ?poiWKT .
+
+  ?stop a evt:Stop ;
+        rdfs:label ?stopLabel ;
+        geo:hasDefaultGeometry/geo:asWKT ?stopWKT .
+
+  BIND(geof:distance(?poiWKT, ?stopWKT, uom:metre) AS ?distanceM)
+  FILTER(?distanceM <= 300)
+}
+ORDER BY ?poiLabel ?distanceM
+LIMIT 200
+
+################################################################################

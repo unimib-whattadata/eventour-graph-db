@@ -1,0 +1,157 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10003> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Bovisasca, 18 dopo Via C.Battisti" ;
+    dcterms:description "89 | 10003" ;
+    dcterms:identifier "tpl_surface_stops:10003" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10003> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Bovisasca, 18 dopo Via C.Battisti" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10008> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Bovisasca, 15/A prima di Via Baracca" ;
+    dcterms:description "89 | 10008" ;
+    dcterms:identifier "tpl_surface_stops:10008" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10008> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Bovisasca, 15/A prima di Via Baracca" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10018> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "C.so Sempione, 83 prima di Via E. Filiberto" ;
+    dcterms:description "48 | 10018" ;
+    dcterms:identifier "tpl_surface_stops:10018" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10018> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "C.so Sempione, 83 prima di Via E. Filiberto" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10021> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Viale Alfa Romeo fronte civico 17" ;
+    dcterms:description "561 | 10021" ;
+    dcterms:identifier "tpl_surface_stops:10021" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10021> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Viale Alfa Romeo fronte civico 17" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10022> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Mosca prima V.Val Cavallina" ;
+    dcterms:description "63 | 10022" ;
+    dcterms:identifier "tpl_surface_stops:10022" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10022> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Mosca prima V.Val Cavallina" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10023> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Mosca prima di Via Spinazzola" ;
+    dcterms:description "63 | 10023" ;
+    dcterms:identifier "tpl_surface_stops:10023" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10023> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Mosca prima di Via Spinazzola" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10024> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Mosca, 42 dopo Via Spinazzola" ;
+    dcterms:description "63 | 10024" ;
+    dcterms:identifier "tpl_surface_stops:10024" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10024> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Mosca, 42 dopo Via Spinazzola" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10025> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Viale Alfa Romeo dopo Museo Alfa Romeo" ;
+    dcterms:description "561 | 10025" ;
+    dcterms:identifier "tpl_surface_stops:10025" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10025> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Viale Alfa Romeo dopo Museo Alfa Romeo" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10026> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via Bergognone dopo via Foppa" ;
+    dcterms:description "68 | 10026" ;
+    dcterms:identifier "tpl_surface_stops:10026" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10026> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via Bergognone dopo via Foppa" .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10027> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Via dei Salici dopo 6" ;
+    dcterms:description "63,151 | 10027" ;
+    dcterms:identifier "tpl_surface_stops:10027" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10027> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_stops> ;
+    ev:hasPrimaryFamily ev:MobilityNode ;
+    schema:streetAddress "Via dei Salici dopo 6" .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10003> a geo:Geometry ;
+    geo:asWKT "POINT (9.148258113563548 45.52690564197453)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10008> a geo:Geometry ;
+    geo:asWKT "POINT (9.148454596861278 45.52675237167478)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10018> a geo:Geometry ;
+    geo:asWKT "POINT (9.158053935355326 45.48628322294479)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10021> a geo:Geometry ;
+    geo:asWKT "POINT (9.05271297848242 45.55840771785539)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10022> a geo:Geometry ;
+    geo:asWKT "POINT (9.071217240235763 45.45214075959212)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10023> a geo:Geometry ;
+    geo:asWKT "POINT (9.07367294128026 45.45359287733268)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10024> a geo:Geometry ;
+    geo:asWKT "POINT (9.073516311556109 45.45361998090345)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10025> a geo:Geometry ;
+    geo:asWKT "POINT (9.052470685154772 45.55703085695196)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10026> a geo:Geometry ;
+    geo:asWKT "POINT (9.161001745589838 45.45766636123295)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10027> a geo:Geometry ;
+    geo:asWKT "POINT (9.079401698927086 45.45309399846573)"^^geo:wktLiteral .
+

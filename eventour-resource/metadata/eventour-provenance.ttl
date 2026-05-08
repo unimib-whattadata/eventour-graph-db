@@ -1,0 +1,237 @@
+@base <http://eventour.unimib.it/milan/release/2026-05-03/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix evt: <http://eventour.unimib.it/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<eventour-kg-milan> a dcat:Dataset,
+        void:Dataset,
+        prov:Entity ;
+    dct:title "Eventour Milan Knowledge Graph"@en ;
+    dct:description "Eventour Milan is a multi-layer urban knowledge graph integrating official Comune di Milano open datasets with a Wikidata-derived semantic place layer. The KG covers urban infrastructure, mobility, services, environmental features, administrative NIL areas, and role-labelled semantic places for applications such as cultural itinerary generation, crowd redistribution, and context-aware city exploration."@en ;
+    dct:identifier "eventour_final_kg_milan" ;
+    dct:issued "2026-05-03"^^xsd:date ;
+    dct:modified "2026-05-05"^^xsd:date ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
+        <http://id.loc.gov/vocabulary/iso639-1/it> ;
+    dct:spatial <http://sws.geonames.org/3173435/>,
+        <http://www.wikidata.org/entity/Q490> ;
+    dct:conformsTo <eventour-final-ontology-ttl>,
+        evt:EventourOntology,
+        geo:,
+        prov:,
+        skos: ;
+    dct:creator <http://eventour.unimib.it/agent/eventour-pipeline> ;
+    dct:publisher <http://eventour.unimib.it/organization/unimib> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:rights "The Eventour Milan KG is released under Creative Commons Attribution 4.0 International (CC BY 4.0). The KG derives from Comune di Milano open data and Wikidata; downstream users must preserve source attribution and comply with source-license requirements."@en ;
+    dct:source <http://eventour.unimib.it/milan/dataset/bike_areesosta>,
+        <http://eventour.unimib.it/milan/dataset/bikemi_stazioni>,
+        <http://eventour.unimib.it/milan/dataset/ds2484_alberi_20240331>,
+        <http://eventour.unimib.it/milan/dataset/ds2748_panchine>,
+        <http://eventour.unimib.it/milan/dataset/ds2749_tavoli_picnic>,
+        <http://eventour.unimib.it/milan/dataset/ds290_economia_botteghe_storiche_2024>,
+        <http://eventour.unimib.it/milan/dataset/ds630_servizi_igienici_pubblici_final>,
+        <http://eventour.unimib.it/milan/dataset/ds69_openwifi_layer_0_open_wifi_outdoor_4326_final>,
+        <http://eventour.unimib.it/milan/dataset/ds964_nil_wm>,
+        <http://eventour.unimib.it/milan/dataset/park_interscambio>,
+        <http://eventour.unimib.it/milan/dataset/park_pub>,
+        <http://eventour.unimib.it/milan/dataset/ricarica_colonnine>,
+        <http://eventour.unimib.it/milan/dataset/tpl_fermate>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metrofermate>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metroorari>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metropercorsi>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metrosequenza>,
+        <http://eventour.unimib.it/milan/dataset/tpl_orari>,
+        <http://eventour.unimib.it/milan/dataset/tpl_percorsi>,
+        <http://eventour.unimib.it/milan/dataset/tpl_sequenza>,
+        <http://eventour.unimib.it/milan/dataset/vedovelle_20260315-233003_final>,
+        <http://www.wikidata.org/> ;
+    dcat:distribution <eventour-final-kg-nt>,
+        <eventour-final-ontology-nt>,
+        <eventour-final-ontology-ttl> ;
+    dcat:keyword "city knowledge graph"@en,
+        "Comune di Milano"@en,
+        "crowd redistribution"@en,
+        "Eventour"@en,
+        "GeoSPARQL"@en,
+        "itinerary generation"@en,
+        "knowledge graph"@en,
+        "mobility"@en,
+        "resource track"@en,
+        "semantic places"@en,
+        "urban knowledge graph"@en,
+        "Wikidata"@en ;
+    dcat:theme <http://eventour.unimib.it/theme/administrative-areas>,
+        <http://eventour.unimib.it/theme/environmental-features>,
+        <http://eventour.unimib.it/theme/mobility>,
+        <http://eventour.unimib.it/theme/semantic-places>,
+        <http://eventour.unimib.it/theme/urban-services> ;
+    void:triples 9374065 ;
+    void:entities 906923 ;
+    void:distinctSubjects 906923 ;
+    void:classes 37 ;
+    void:properties 123 ;
+    void:vocabulary dcat:,
+        dct:,
+        evt:,
+        geo:,
+        owl:,
+        prov:,
+        rdf:,
+        rdfs:,
+        schema:,
+        skos: ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples> ;
+    void:rootResource <http://eventour.unimib.it/milan/place/milano> ;
+    void:subset <eventour-official-urban-layer>,
+        <eventour-wikidata-place-layer>,
+        <eventour-primary-poi-subset>,
+        <eventour-secondary-poi-subset>,
+        <eventour-context-entity-subset> ;
+    void:classPartition [
+            void:class evt:Tree ;
+            void:entities 247779
+        ],
+        [
+            void:class evt:Bench ;
+            void:entities 30130
+        ],
+        [
+            void:class evt:Stop ;
+            void:entities 4820
+        ],
+        [
+            void:class evt:StopInRoute ;
+            void:entities 10404
+        ],
+        [
+            void:class evt:BicycleParkingArea ;
+            void:entities 3249
+        ],
+        [
+            void:class evt:BikeSharingStation ;
+            void:entities 325
+        ],
+        [
+            void:class evt:HistoricShop ;
+            void:entities 626
+        ],
+        [
+            void:class evt:PublicToilet ;
+            void:entities 210
+        ],
+        [
+            void:class evt:ParkingFacility ;
+            void:entities 3323
+        ],
+        [
+            void:class evt:EVChargingStation ;
+            void:entities 483
+        ],
+        [
+            void:class evt:DrinkingFountain ;
+            void:entities 721
+        ],
+        [
+            void:class evt:Place ;
+            void:entities 3288
+        ] .
+
+<eventour-final-kg-nt> a dcat:Distribution ;
+    dct:title "Eventour Milan KG, final merged RDF graph"@en ;
+    dct:description "Final merged Eventour KG for Milan, including the city-scoped Comune di Milano urban KG backbone and the Wikidata semantic place layer."@en ;
+    dct:format "application/n-triples" ;
+    dct:identifier "eventour_final_kg_milan.nt" ;
+    dcat:byteSize 1379859675 ;
+    dcat:downloadURL <eventour_final_kg_milan.nt> ;
+    void:triples 9374065 .
+
+<eventour-final-ontology-ttl> a dcat:Distribution,
+        owl:Ontology ;
+    dct:title "Eventour ontology, Turtle serialization"@en ;
+    dct:description "Publishable Eventour ontology containing the reusable TBox, Eventour role scheme, Eventour category scheme, and shared controlled vocabularies."@en ;
+    dct:format "text/turtle" ;
+    dct:identifier "eventour_final_ontology.ttl" ;
+    dcat:byteSize 28079 ;
+    dcat:downloadURL <eventour_final_ontology.ttl> ;
+    void:triples 593 .
+
+<eventour-final-ontology-nt> a dcat:Distribution ;
+    dct:title "Eventour ontology, N-Triples serialization"@en ;
+    dct:format "application/n-triples" ;
+    dct:identifier "eventour_final_ontology.nt" ;
+    dcat:byteSize 81751 ;
+    dcat:downloadURL <eventour_final_ontology.nt> ;
+    void:triples 593 .
+
+<eventour-official-urban-layer> a void:Dataset ;
+    dct:title "Eventour official urban data layer"@en ;
+    dct:description "Subset derived from official Comune di Milano datasets, covering administrative areas, mobility, environmental features, public services, and urban infrastructure."@en ;
+    dct:source <http://eventour.unimib.it/milan/dataset/bike_areesosta>,
+        <http://eventour.unimib.it/milan/dataset/bikemi_stazioni>,
+        <http://eventour.unimib.it/milan/dataset/ds2484_alberi_20240331>,
+        <http://eventour.unimib.it/milan/dataset/ds2748_panchine>,
+        <http://eventour.unimib.it/milan/dataset/ds2749_tavoli_picnic>,
+        <http://eventour.unimib.it/milan/dataset/ds290_economia_botteghe_storiche_2024>,
+        <http://eventour.unimib.it/milan/dataset/ds630_servizi_igienici_pubblici_final>,
+        <http://eventour.unimib.it/milan/dataset/ds69_openwifi_layer_0_open_wifi_outdoor_4326_final>,
+        <http://eventour.unimib.it/milan/dataset/ds964_nil_wm>,
+        <http://eventour.unimib.it/milan/dataset/park_interscambio>,
+        <http://eventour.unimib.it/milan/dataset/park_pub>,
+        <http://eventour.unimib.it/milan/dataset/ricarica_colonnine>,
+        <http://eventour.unimib.it/milan/dataset/tpl_fermate>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metrofermate>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metroorari>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metropercorsi>,
+        <http://eventour.unimib.it/milan/dataset/tpl_metrosequenza>,
+        <http://eventour.unimib.it/milan/dataset/tpl_orari>,
+        <http://eventour.unimib.it/milan/dataset/tpl_percorsi>,
+        <http://eventour.unimib.it/milan/dataset/tpl_sequenza>,
+        <http://eventour.unimib.it/milan/dataset/vedovelle_20260315-233003_final> .
+
+<eventour-wikidata-place-layer> a void:Dataset ;
+    dct:title "Eventour Wikidata semantic place layer"@en ;
+    dct:description "Subset of geolocated Wikidata entities in Milan retained as Eventour semantic places after curation and role assignment."@en ;
+    dct:source <http://www.wikidata.org/> ;
+    void:triples 70500 ;
+    void:entities 3288 ;
+    void:classPartition [
+            void:class evt:Place ;
+            void:entities 3288
+        ] ;
+    void:subset <eventour-primary-poi-subset>,
+        <eventour-secondary-poi-subset>,
+        <eventour-context-entity-subset> .
+
+<eventour-primary-poi-subset> a void:Dataset ;
+    dct:title "Eventour primary POI subset"@en ;
+    dct:description "Wikidata-derived semantic places assigned the Eventour role primary-poi."@en ;
+    evt:hasEventourRole <http://eventour.unimib.it/role/primary-poi> ;
+    void:entities 1114 .
+
+<eventour-secondary-poi-subset> a void:Dataset ;
+    dct:title "Eventour secondary POI subset"@en ;
+    dct:description "Wikidata-derived semantic places assigned the Eventour role secondary-poi."@en ;
+    evt:hasEventourRole <http://eventour.unimib.it/role/secondary-poi> ;
+    void:entities 892 .
+
+<eventour-context-entity-subset> a void:Dataset ;
+    dct:title "Eventour context entity subset"@en ;
+    dct:description "Wikidata-derived semantic places assigned the Eventour role context-entity."@en ;
+    evt:hasEventourRole <http://eventour.unimib.it/role/context-entity> ;
+    void:entities 1282 .
+
+<http://eventour.unimib.it/organization/unimib> a schema:Organization ;
+    rdfs:label "University of Milano-Bicocca"@en .
+
+<http://eventour.unimib.it/agent/eventour-pipeline> a prov:SoftwareAgent ;
+    rdfs:label "Eventour KG generation pipeline"@en .

@@ -1,0 +1,552 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-7",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.183666058588303 45.46088788087214)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-9",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:9"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Velasca"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-4",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.175661673055181 45.4680028649026)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-1",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.189141462641942 45.46474597341512)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-8",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.186745326611534 45.46284824997636)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-10",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.195239434282286 45.46237015895611)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-5",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:5"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lanza"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-7",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Bifacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:7"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-7"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "San Giorgio"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-6",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:6"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Universita' Cattolica"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-11",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.188246191071133 45.46131859260759)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-3",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.19725017347506 45.46626613650044)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-1",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:1"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Duomo"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-4",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 21 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:4"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cadorna 1"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-5",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.181970059045629 45.472273980024426)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-10",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 18 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:10"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "S. Stefano"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-11",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 21 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:11"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Missori"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-6",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.176411553596594 45.46312096738567)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-9",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.190296065878343 45.460100426684846)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-3",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:3"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "San Babila Bis"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-8",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Monofacciale | 24 | attiva"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "bikemi_stations:8"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Santa Maria Beltrade"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/bikemi_stations"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  }
+]

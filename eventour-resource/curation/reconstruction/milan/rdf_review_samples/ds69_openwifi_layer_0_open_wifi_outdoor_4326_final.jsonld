@@ -1,0 +1,602 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-4",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.21142 45.46333)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-9",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "2 | GORLA - PRECOTTO | 20126"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:9"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "arunPanza01"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via BREDA ERNESTO 176"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-0",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.14502 45.51833)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-5",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.19613 45.45941)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-8",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "1 | DUOMO | 20121"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:8"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "csPzzScala01"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Piazza SCALA (DELLA)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-9",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.2221 45.52126)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-6",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "4 | LODI - CORVETTO | 20139"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:6"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "enProcaccini-01"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via OGLIO 18P01"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-3",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "9 | PARCO NORD | 20161"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:3"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "CSViaBaldinucci76-01"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Piazzale MARTIRI DELLA DEPORTAZIONE 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-7",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.17341 45.43054)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-2",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "9 | BOVISASCA | 20157"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:2"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "CSPiazzaleAccursio5-03"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via CEVA UMBERTO 2A"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-1",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "9 | COMASINA | 20161"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:1"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "CSPiazzaleAccursio5-02"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via FORNI GEROLAMO 36"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-1",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.16676 45.52502)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-3",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.18105 45.52896)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-0",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "8 | QUARTO OGGIARO - VIALBA - MUSOCCO | 20157"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:0"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-0"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "CSPiazzaleAccursio5-04"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via SIMONI RENATO 15"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-6",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.21784 45.44037)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-8",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.18981 45.46687)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-2",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.15559 45.51625)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-7",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "5 | STADERA - CHIESA ROSSA - Q.RE TORRETTA - CONCA FALLATA | 20141"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:7"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-7"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "enProcaccini-02"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via SAVIO DOMENICO (SAN) 3"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-4",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "4 | XXII MARZO | 20129"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:4"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "enGuerzoni02"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via FIAMMA GALVANO 10"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/openwifi/openwifi-5",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "1 | GUASTALLA | 20122"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "openwifi:5"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/openwifi/openwifi-5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "enLivigno02"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/openwifi"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via SAN BARNABA 2"
+      }
+    ]
+  }
+]

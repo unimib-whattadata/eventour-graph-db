@@ -1,0 +1,146 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-1> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Duomo" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:1" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-1> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-10> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "S. Stefano" ;
+    dcterms:description "Monofacciale | 18 | attiva" ;
+    dcterms:identifier "bikemi_stations:10" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-10> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-11> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Missori" ;
+    dcterms:description "Monofacciale | 21 | attiva" ;
+    dcterms:identifier "bikemi_stations:11" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-11> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-3> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "San Babila Bis" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:3" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-3> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-4> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Cadorna 1" ;
+    dcterms:description "Monofacciale | 21 | attiva" ;
+    dcterms:identifier "bikemi_stations:4" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-4> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-5> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Lanza" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:5" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-5> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-6> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Universita' Cattolica" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:6" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-6> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-7> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "San Giorgio" ;
+    dcterms:description "Bifacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:7" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-7> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-8> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Santa Maria Beltrade" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:8" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-8> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/entity/bikemi_stations/bikemi_stations-9> a geo:Feature,
+        ev:MobilityNode,
+        ev:UrbanEntity ;
+    rdfs:label "Velasca" ;
+    dcterms:description "Monofacciale | 24 | attiva" ;
+    dcterms:identifier "bikemi_stations:9" ;
+    dcterms:source <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-9> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/bikemi_stations> ;
+    ev:hasPrimaryFamily ev:MobilityNode .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-1> a geo:Geometry ;
+    geo:asWKT "POINT (9.189141462641942 45.46474597341512)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-10> a geo:Geometry ;
+    geo:asWKT "POINT (9.195239434282286 45.46237015895611)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-11> a geo:Geometry ;
+    geo:asWKT "POINT (9.188246191071133 45.46131859260759)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-3> a geo:Geometry ;
+    geo:asWKT "POINT (9.19725017347506 45.46626613650044)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-4> a geo:Geometry ;
+    geo:asWKT "POINT (9.175661673055181 45.4680028649026)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-5> a geo:Geometry ;
+    geo:asWKT "POINT (9.181970059045629 45.472273980024426)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-6> a geo:Geometry ;
+    geo:asWKT "POINT (9.176411553596594 45.46312096738567)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-7> a geo:Geometry ;
+    geo:asWKT "POINT (9.183666058588303 45.46088788087214)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-8> a geo:Geometry ;
+    geo:asWKT "POINT (9.186745326611534 45.46284824997636)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/bikemi_stations/bikemi_stations-9> a geo:Geometry ;
+    geo:asWKT "POINT (9.190296065878343 45.460100426684846)"^^geo:wktLiteral .
+

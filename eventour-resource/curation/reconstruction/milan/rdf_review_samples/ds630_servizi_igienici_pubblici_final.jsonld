@@ -1,0 +1,602 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-3",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "mobile | annuale"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:3"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Parco - Lambro"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Parco Lambro"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-2",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "mobile | marzo - ottobre"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:2"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Parco - Lambro"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Parco Lambro"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-10",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "fisso | permanente"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:10"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Piazza - Cimitero Maggiore"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Piazza Cimitero Maggiore"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-7",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "fisso | permanente"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:7"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-7"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Viale - Faenza"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Viale Faenza"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-9",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "fisso | permanente"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:9"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Via - Patroclo"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Patroclo"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-8",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.26473966654873 45.4642485848157)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-5",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "mobile | marzo - ottobre | ex Parco Pallavicino"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:5"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Giardino - Guido Vergani e Valentino Bompiani"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Giardino Guido Vergani e Valentino Bompiani"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-2",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.24846695660232 45.4952424953015)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-7",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.15385399107337 45.4369314320709)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-6",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "fisso | permanente"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:6"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Piazzale - Lagosta"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Piazzale Lagosta"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-10",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.12127348263632 45.5030124303824)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-6",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.19062532294286 45.4890973534605)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-8",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "mobile | annuale"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:8"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Parco - Forlanini"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Parco Forlanini"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-3",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.2538811452298 45.4969576903024)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-9",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.12111425076496 45.4763216976644)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-1",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "mobile | marzo - ottobre"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:1"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Parco - Lambro"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Parco Lambro"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-1",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.24947453826014 45.4983057406496)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-5",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.16060944270089 45.4687509679486)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/public_toilets/public_toilets-4",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "fisso | permanente"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "public_toilets:4"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Public toilet - Via - Giacosa"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/public_toilets"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Giacosa"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/public_toilets/public_toilets-4",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.22218283865184 45.4938404216456)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,759 @@
+sample_id,item_qid,preferred_label,serena_decision,blerina_decision,fabio_decision,serena_category,blerina_category,fabio_category,human_decision_majority,human_category_majority,adjudicated_final_label,adjudicated_final_category,adjudication_notes,llm_decision,llm_eventour_category,llm_confidence,llm_needs_review
+ann_0001,Q4546860,10 Corso Como,keep_context,keep_context,exclude,special_interest_attraction,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0002,Q81172370,AEM spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0003,Q338472,Accademia di belle arti di Brera,keep_poi,keep_poi,keep_poi,gallery_art_space,performing_arts_entertainment,,keep_poi,,,,,candidate_exception,,0.78,True
+ann_0004,Q16163709,Alcatraz,keep_poi,keep_poi,keep_poi,performing_arts_entertainment,special_interest_attraction,special_interest_attraction,keep_poi,special_interest_attraction,,,,candidate_exception,,0.78,True
+ann_0005,Q37158169,Anteo Spazio Cinema,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0006,Q111413056,Antica Locanda Dei Mercanti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0007,Q111878946,Aparthotel Duomo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0008,Q56328172,Apple Piazza Liberty,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0009,Q70050683,Archivio Alberto Zilocchi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0010,Q125745411,Archivio delle tesi di laurea dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0011,Q113298714,Archivio delle tesi di laurea. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0012,Q111413053,Armani Hotel Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0013,Q81172421,Arredamenti Cattaneo srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0014,Q113515425,Associazione Culturale Biblioteca Famiglia Meneghina-Societ√† del Giardino,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.74,True
+ann_0015,Q81172471,Azienda ospedaliera Ospedale Niguarda Ca' Granda,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0016,Q81172496,Banca Regionale Europea spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0017,Q81172489,Banca commerciale italiana spa - BCI,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0018,Q2404922,Bar Basso,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0019,Q18222706,Bar Bianco,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0020,Q130308172,Bar Gattullo,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0021,Q3634474,Bar Jamaica,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0022,Q130308155,Bar Quadronno,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0023,Q113515493,"Biblioteca ""Ettore Castiglioni""",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0024,Q113319485,Biblioteca AGIS lombarda,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0025,Q113468898,Biblioteca Archivio per la storia del movimento sociale cattolico in Italia. Universit√† cattolica del Sacro Cuore,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0026,Q113319494,Biblioteca Assocalzaturifici,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0027,Q113298767,Biblioteca Biomedica di Citt√† Studi. Sezione Prestito per il diritto allo studio. Universit√† degli Studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0028,Q113298719,Biblioteca Bovisa Candiani. Politecnico di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0029,Q113298758,Biblioteca Bovisa La Masa del Politecnico di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0030,Q113319455,Biblioteca Centro Studi Educativi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0031,Q125745416,Biblioteca Cluster,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0032,Q112941453,Biblioteca Comunale Rionale Affori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0033,Q112941460,Biblioteca Comunale Rionale Calvairate,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0034,Q112941671,Biblioteca Comunale Rionale Cassina Anna,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0035,Q112941550,Biblioteca Comunale Rionale Chiesa Rossa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0036,Q112941445,Biblioteca Comunale Rionale Dergano - Bovisa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0037,Q112941674,Biblioteca Comunale Rionale Fra Cristoforo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0038,Q112941554,Biblioteca Comunale Rionale Gallaratese,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.74,True
+ann_0039,Q112941451,Biblioteca Comunale Rionale Harar,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0040,Q112941449,Biblioteca Comunale Rionale Lorenteggio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0041,Q112941557,Biblioteca Comunale Rionale Niguarda,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0042,Q112941560,Biblioteca Comunale Rionale Oglio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0043,Q112941441,Biblioteca Comunale Rionale Parco Sempione,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0044,Q112941444,Biblioteca Comunale Rionale Quarto Oggiaro,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0045,Q112941561,Biblioteca Comunale Rionale S. Ambrogio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0046,Q112941439,Biblioteca Comunale Rionale Sicilia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0047,Q112941563,Biblioteca Comunale Rionale Tibaldi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0048,Q112941683,Biblioteca Comunale Rionale Zara,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0049,Q113515449,Biblioteca Franco Fornari del Centro milanese di psicoanalisi Cesare Musatti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0050,Q113610837,Biblioteca Isimbardi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0051,Q113535862,Biblioteca Isola di Libri,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0052,Q113298710,"Biblioteca Matematica ""Giovanni Ricci"". Universit√† degli Studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0053,Q113515445,Biblioteca Popolare della Fondazione Carlo Perini,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0054,Q113319457,Biblioteca San Raffaele,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0055,Q113319484,Biblioteca Scientifica della Fondazione don Carlo Gnocchi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0056,Q113319503,Biblioteca WOW,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0057,Q81172851,Biblioteca archeologica-Biblioteca d'arte-Centro di alti studi sulle arti visive - CASVA,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0058,Q113319453,Biblioteca avvocato Giorgio Ambrosoli dell'Ordine degli avvocati di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0059,Q113298721,Biblioteca d'Ateneo. Sede centrale. Universit√† degli studi di Milano-Bicocca,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0060,Q113535855,Biblioteca dei trasporti e della mutualit√† Cesare Pozzo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0061,Q113515443,Biblioteca del Centro Documentazione Biomedica di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0062,Q113515492,Biblioteca del Centro culturale protestante di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0063,Q113092722,Biblioteca del Centro di consultazione psico-pedagogica Villa Clerici,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0064,Q113298768,Biblioteca del Centro funzionale Raffaele Mattioli. Universit√† degli Studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0065,Q113092725,Biblioteca del Centro missionario del Pontificio istituto missioni estere - PIME,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0066,Q113515451,Biblioteca del Centro studi carusiani,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0067,Q113319462,Biblioteca del Centro studi per la programmazione intercomunale dell'area metropolitana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0068,Q113535856,Biblioteca del Circolo aziendale Siemens,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0069,Q113527482,Biblioteca del Circolo filologico milanese,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0070,Q17622730,Biblioteca del Consiglio regionale della Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0071,Q113298709,"Biblioteca del Dipartimento di chimica inorganica, metallorganica e analitica. Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0072,Q113611872,Biblioteca del Dipartimento di diritto pubblico italiano e sovranazionale dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0073,Q113611873,"Biblioteca del Dipartimento di scienze giuridiche ecclesiasticistiche, filosofico-sociologiche e penalistiche Cesare Beccaria dell'Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0074,Q113298734,"Biblioteca del Dipartimento di storia delle arti, della musica e dello spettacolo. Sezione discipline musicologiche e dello spettacolo. Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0075,Q125745409,Biblioteca del Gruppo archeologico milanese,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0076,Q113527484,Biblioteca del Libro parlato di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0077,Q113092739,Biblioteca del Monastero S. Benedetto,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0078,Q113092728,Biblioteca del Monastero S. Maria di Chiaravalle,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0079,Q113515478,Biblioteca del Museo Poldi Pezzoli. Sezione moderna,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0080,Q3639653,Biblioteca del Museo civico di storia naturale di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0081,Q113639764,Biblioteca del Museo delle Culture,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0082,Q113298752,Biblioteca del Polo San Paolo della Facolt√† di medicina e chirurgia. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0083,Q113611868,Biblioteca del Polo di lingue e letterature straniere dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0084,Q113298715,Biblioteca del Polo di lingue e letterature straniere. Centro studi Stati Uniti. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0085,Q113298728,Biblioteca del Polo di lingue e letterature straniere. Sezione di lingue e letterature iberiche e ibero-americane. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0086,Q113298729,Biblioteca del Polo di lingue e letterature straniere. sezione di Anglistica e di Comparatistica. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.86,True
+ann_0087,Q113298727,Biblioteca del Polo di lingue e letterature straniere. sezione di Lingua e e letteratura francese e dei paesi francofoni. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0088,Q113298733,Biblioteca del Polo di lingue e letterature straniere. sezione di Lingue e letterature dell'Europa orientale. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0089,Q113319506,Biblioteca del Progetto Grafico c/o Centro di documentazione sul Progetto Grafico di AIAP (AIAP CDPG),exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0090,Q125745419,Biblioteca del Tribunale amministrativo regionale della Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0091,Q3639651,Biblioteca del conservatorio Giuseppe Verdi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0092,Q113515480,Biblioteca dell'Accademia dei filodrammatici,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0093,Q113528704,Biblioteca dell'Accademia di belle arti di Brera,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0094,Q113515575,Biblioteca dell'Agenzia regionale per la protezione dell'ambiente. ARPA della Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0095,Q113515448,Biblioteca dell'Archivio Storico dell'ASP Golgi-Redaelli di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0096,Q113092717,Biblioteca dell'Archivio capitolare di S. Ambrogio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0097,Q113528875,Biblioteca dell'Area Stazione Sperimentale per le Industrie degli Oli e Grassi. INNOVHUB,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0098,Q113610831,Biblioteca dell'Associazione Italia Russia di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0099,Q113515484,Biblioteca dell'Associazione nazionale alpini. ANA,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0100,Q113515490,Biblioteca dell'Autorit√† di Regolazione per Energia Reti e Ambiente,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0101,Q113515436,Biblioteca dell'Ente Raccolta vinciana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0102,Q113319459,Biblioteca dell'Ente nazionale italiano di unificazione,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0103,Q113610832,Biblioteca dell'ICOM - International Council of Museums. Comitato nazionale italiano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0104,Q113092724,Biblioteca dell'Istituto Leone XIII,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0105,Q113298726,Biblioteca dell'Istituto di diritto civile della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0106,Q113298725,Biblioteca dell'Istituto di diritto commerciale della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0107,Q113298742,Biblioteca dell'Istituto di filosofia e sociologia del diritto della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0108,Q113515475,Biblioteca dell'Istituto di matematica applicata e tecnologie informatiche del CNR,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0109,Q113298737,Biblioteca dell'Istituto di scienze economiche e statistiche della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0110,Q113298736,Biblioteca dell'Istituto di storia del diritto medievale e moderno della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0111,Q113687434,Biblioteca dell'Istituto milanese Martinitt e Stelline,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0112,Q113515468,Biblioteca dell'Istituto per l'energetica e le interfasi. ex IENI del CNR ora ICMATE,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0113,Q113515444,Biblioteca dell'Istituto per la Scienza e Tecnologia Dei Plasmi del Cnr,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0114,Q113515452,Biblioteca dell'Istituto per lo studio delle macromolecole del CNR,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0115,Q113515457,Biblioteca dell'Istituto permanente per lo studio e la diffusione del cinema d'animazione. ISCA,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0116,Q113319468,Biblioteca dell'Istituto stomatologico italiano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0117,Q113092730,Biblioteca dell'Istituto superiore di scienze religiose - ISSR,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0118,Q113714054,Biblioteca dell'Istituto universitario di scienze motorie di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0119,Q113319497,Biblioteca dell'Ordine degli architetti P.P.C. della provincia di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0120,Q113515458,Biblioteca dell'Organizzazione per la preparazione professionale degli insegnanti. OPPI,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0121,Q113535617,Biblioteca dell'Osservatorio astronomico di Brera,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0122,Q113535865,Biblioteca dell'Unione Italiana Vini,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0123,Q113515471,Biblioteca dell'Unione femminile nazionale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0124,Q113319491,Biblioteca della Casa di riposo per musicisti Fondazione Giuseppe Verdi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0125,Q113610829,Biblioteca della Corte di appello di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0126,Q113092731,Biblioteca della Facolt√† teologica dell'Italia settentrionale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0127,Q113515482,Biblioteca della Fondazione Anna Kuliscioff,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0128,Q113319499,Biblioteca della Fondazione Elvira Badaracco,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0129,Q113319489,Biblioteca della Fondazione Eni Enrico Mattei,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0130,Q113515473,Biblioteca della Fondazione Felicita ed Enrico Bignaschi e figli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0131,Q113610841,Biblioteca della Fondazione Floriani,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.8,True
+ann_0132,Q113535859,Biblioteca della Fondazione Mansutti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0133,Q113092729,Biblioteca della Fondazione culturale S. Fedele,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0134,Q113515477,Biblioteca della Nuova accademia di belle arti. NABA,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0135,Q113091635,Biblioteca della Parrocchia di S. Babila,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0136,Q113092738,Biblioteca della Scuola Beato Angelico,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0137,Q113515459,Biblioteca della Scuola musicale di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0138,Q125745415,Biblioteca della Sezione di Scienze economiche e diritto tributario dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0139,Q113515472,Biblioteca della Societ√† numismatica italiana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0140,Q113319472,Biblioteca della Societ√† prodotti antibiotici,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0141,Q113525909,"Biblioteca della Soprintendenza Archeologia belle arti e paesaggio per le province di Como, Lecco, Monza e Brianza, Pavia, Sondrio e Varese",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0142,Q113610828,"Biblioteca della Soprintendenza Archeologia, belle arti e paesaggio per la citt√† metropolitana di Milano. Architettura",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0143,Q113378311,Biblioteca della Soprintendenza Archivistica e bibliografica della Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0144,Q113515469,Biblioteca della Triennale Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0145,Q113515440,Biblioteca della montagna Luigi Gabba,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0146,Q113091634,Biblioteca della parrocchia Ss. Martiri Nazaro e Celso,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0147,Q113086135,Biblioteca delle Raccolte Artistiche del Castello Sforzesco,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0148,Q113319464,"Biblioteca di Design, Comunicazione e Arti Visive. IED - Istituto Europeo di Design",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0149,Q113319495,Biblioteca di Morando della Fondazione Cineteca Italiana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0150,Q113515460,Biblioteca di Politeia Centro per la ricerca e la formazione in politica e etica,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0151,Q113298763,Biblioteca di Scienze dell'antichit√† e filologia moderna. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0152,Q113298751,Biblioteca di Scienze della storia e della documentazione storica. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0153,Q113468899,Biblioteca di ateneo Carlo Bo. Libera universit√† di lingue e comunicazione. IULM,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0154,Q113298765,Biblioteca di scienze dell'antichit√† e filologia moderna. Sezione di egittologia. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0155,Q113298764,Biblioteca di scienze dell'antichit√† e filologia moderna. Sezione di papirologia. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0156,Q113298713,Biblioteca di scienze politiche Enrica Collotti Pischel. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0157,Q113091633,Biblioteca e Archivio della Parrocchia prepositurale S. Francesco di Paola,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0158,Q113092719,Biblioteca francescano-cappuccina provinciale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.81,True
+ann_0159,Q28739821,Biblioteca freshpages MHMK di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0160,Q113610838,Biblioteca giuridica della Giunta regionale della Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0161,Q113610839,Biblioteca privata Massimo Gentili-Tedeschi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0162,Q111698005,Biblioteca provinciale dei Carmelitani scalzi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0163,Q113319450,Biblioteca tecnico scientifica Pirelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0164,Q60838261,Bicocca 307,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0165,Q24702775,Birrificio Lambrate,keep_poi,exclude,exclude,special_interest_attraction,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0166,Q18222859,Borgo Pirelli,keep_context,exclude,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0167,Q81172524,Brandolini R. Metalli srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.81,True
+ann_0168,Q111413059,Bulgari Hotel Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0169,Q81172531,C. De Giovanni sas,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0170,Q81172555,Camera di commercio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0171,Q26258023,Casa Bellotti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0172,Q28669494,Casa Berri-Meregalli,keep_poi,exclude,exclude,historic_architecture,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0173,Q28669574,Casa Bottelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0174,Q105266244,Casa Carboni Perego,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0175,Q28668289,Casa Celesia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0176,Q24941543,Casa Cornaggia Medici,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0177,Q26258058,Casa Crotti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0178,Q28669497,Casa Donzelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0179,Q17623939,Casa Milan,exclude,exclude,keep_poi,,,special_interest_attraction,exclude,,,,,candidate_exception,,0.79,True
+ann_0180,Q28668066,Casa Moretti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0181,Q111082945,Casa Quaroni,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0182,Q115571414,Casa Silva,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0183,Q67507472,Casa degli Emigranti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0184,Q26258014,Casa dei Botta,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0185,Q26258053,Casa dei Meravigli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0186,Q26258019,Casa dei Morigi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0187,Q99477583,Casa dell'Unione Cooperativa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0188,Q104672470,Casa della Fontana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0189,Q115571777,Casa di Cicco Simonetta,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0190,Q134889024,Casa natale di Luciano Tajoli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0191,Q127869768,Cascina Boscaiola,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0192,Q70753849,Cascina Caldera,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0193,Q131905409,Cascina Molino del Paradiso,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0194,Q21208478,Cascina Torrette di Trenno,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0195,Q137302223,Cavalcavia Pontinia,exclude,keep_poi,keep_context,,,,,,,,,candidate_exception,,0.72,True
+ann_0196,Q21208489,Cenni di Cambiamento,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0197,Q113610836,Centro Bibliografico e di Documentazione della Regione Lombardia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0198,Q3664769,Centro Svizzero,keep_context,exclude,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0199,Q113515447,Centro di Informazione Statistica. Cis Istat,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0200,Q113515461,Centro di documentazione del Centro di forestazione urbana. Italia nostra,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0201,Q113319463,Centro documentazione AGESCI,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0202,Q104467639,Centro studi libertari Archivio Giuseppe Pinelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0203,Q117184506,"Chiesa della SS. Trinit√†, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0204,Q117184501,"Chiesa di S. Bartolomeo, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0205,Q117184502,"Chiesa di S. Calimero, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0206,Q117184504,"Chiesa di S. Marco, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0207,Q117184505,"Chiesa di S. Satiro, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0208,Q117184592,"Chiesa di S. Tommaso in S. Ildefonso, Archivio",exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0209,Q111413033,Ch√¢teau Monfort - Relais & Ch√¢teaux,exclude,keep_poi,keep_context,,,,,,,,,candidate_exception,,0.78,True
+ann_0210,Q55993497,Cinema ABC,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0211,Q55992808,Cinema Abadan,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0212,Q37158189,Cinema Ambasciatori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0213,Q37158251,Cinema Arcobaleno,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0214,Q37158276,Cinema Ariston,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0215,Q37158320,Cinema Astra,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0216,Q37158340,Cinema Cavour,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0217,Q37158362,Cinema Centrale Multisala,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0218,Q37158387,Cinema Corallo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0219,Q37158407,Cinema De Amicis,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0220,Q37158428,Cinema Excelsior Multisala,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0221,Q112128097,Cinema Maestoso,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0222,Q37158454,Cinema Massimo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0223,Q37158477,Cinema Mediolanum,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0224,Q37158498,Cinema Metropol,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0225,Q37158515,Cinema Missori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0226,Q37158561,Cinema Pasquirolo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0227,Q55993134,Cinema Tiziano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0228,Q81172616,Cinemeccanica spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0229,Q81172632,Citroen Italia spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0230,Q97159768,Cittadella degli Archivi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0231,Q122840099,CityWave,exclude,keep_poi,keep_context,,,,,,,,,candidate_exception,,0.78,True
+ann_0232,Q48808358,Citylife Shopping District,keep_poi,keep_context,exclude,district_streetscape,,,,,,,,candidate_exception,,0.78,True
+ann_0233,Q3953247,Civica Scuola di Teatro Paolo Grassi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0234,Q99006501,Civica scuola di musica Claudio Abbado,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0235,Q111878956,Clerici Boutique Hotel,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0236,Q89207768,Clinica Capitanio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0237,Q89413349,Clinica La Madonnina,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0238,Q134400133,"Club alpino italiano. Sezione di Milano, Milano (MI)",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0239,Q3682941,Collegio Augustinianum,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0240,Q3685968,Conca di Viarenna,keep_poi,keep_poi,keep_poi,special_interest_attraction,urban_landmark,urban_landmark,keep_poi,urban_landmark,,,,candidate_exception,,0.75,True
+ann_0241,Q81173027,"Cooperativa Edificatrice Operaia Filippo Corridoni scrl (numero REA 81681 Mi), Milano (MI)",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0242,Q81173033,Cooperativa Farmaceutica srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0243,Q136757880,Corte Italia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0244,Q30880894,C√† di Can,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0245,Q81173060,DG Vianini & C. srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0246,Q3705804,Derby Club,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0247,Q81173064,Ditta Guenzati snc di Ragno V. e Moretti A.,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0248,Q81173068,Ditta Raimondi di Pettinaroli spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0249,Q111878947,Duomo Hotel & Apartments,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0250,Q113403055,Edificio Sarfatti,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0251,Q81173092,Editoriale Itaca srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0252,Q81173123,Edizioni Cond‚àö¬© Nast Italia spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0253,Q112018375,Elizabeth Lifestyle Hotel,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0254,Q81173180,Else spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0255,Q81173182,Enrico Leuthold ditta individuale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0256,Q111413072,"Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0257,Q81173201,F.lli Mussi fu Gerolamo srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0258,Q130776383,Fabrique,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0259,Q44470963,Feltrinelli Porta Volta,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0260,Q81173220,Fernando Burgo Editore,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0261,Q3744629,Fieramilanocity,exclude,keep_poi,keep_poi,,,urban_landmark,keep_poi,,,,,candidate_exception,,0.78,True
+ann_0262,Q81173249,Fondazione Bracco,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0263,Q111413047,Four Seasons Hotel Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0264,Q81173302,Fratelli Freni srl,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0265,Q20008238,Galleria De Cristoforis,keep_context,keep_poi,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0266,Q80826425,Galleria Mazzini,keep_context,keep_poi,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0267,Q21293174,Galleria Meravigli,keep_context,keep_poi,keep_context,,,,keep_context,,,,,candidate_exception,,0.82,True
+ann_0268,Q55174674,Galleria Passarella 1-2,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0269,Q131160996,Gambrinus Halle,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0270,Q112044659,Garage Traversi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0271,Q3759354,Gemini Center,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0272,Q81173331,Gianni Accardi Forever sas & C,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0273,Q17494671,Giardino Aldo Protti,exclude,keep_poi,keep_context,,,,,,,,,candidate_exception,,0.0,True
+ann_0274,Q55831651,Giax Tower,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0275,Q81173335,Giorgio Armani spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0276,Q58229341,Goethe-Institut Milan,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0277,Q99334306,Grattacieli di Piazza Piemonte,exclude,keep_poi,keep_context,,,,,,,,,candidate_exception,,0.78,True
+ann_0278,Q81173380,Harlequin Mondadori spa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0279,Q111123753,Hotel Arco Romana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0280,Q111413055,Hotel Cavour,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.85,True
+ann_0281,Q116001229,Hotel Diana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0282,Q111123726,Hotel Dover,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0283,Q111123725,Hotel Due Giardini,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0284,Q111123744,Hotel Flora,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0285,Q15225814,Hotel Florida,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0286,Q105064166,Hotel Gallia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0287,Q111413060,Hotel Manin,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0288,Q111123727,Hotel Poma Milan,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0289,Q111123722,Hotel RossoVino,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0290,Q111413058,Hotel Sanpi Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0291,Q111123737,Hotel Stradivari,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.86,True
+ann_0292,Q111413031,Hotel Vittoria,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0293,Q136164708,Hyatt Centric Milan Centrale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0294,Q116386446,I Portali,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0295,Q48806168,IBM Studios,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0296,Q29449639,Ippodromo del galoppo di San Siro,keep_poi,keep_poi,keep_poi,urban_landmark,urban_landmark,urban_landmark,keep_poi,urban_landmark,,,,candidate_exception,,0.78,True
+ann_0297,Q6082415,Islamic Cultural Institute,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0298,Q123927197,Istituto Italiano di Fotografia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0299,Q2901181,Istituto Marangoni,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0300,Q113639754,Istituto di Ricerche Farmacologiche Mario Negri IRCCS,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0301,Q106434508,Largo Agostiniani Dell'Osservanza,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0302,Q106434533,Largo Alberto Camus,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.77,True
+ann_0303,Q106434454,Largo Antonio Ghiringhelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.73,True
+ann_0304,Q106434525,Largo Brasilia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0305,Q106434501,Largo Marco Biagi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0306,Q106434455,Largo Raffaele Mattioli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0307,Q106434528,Largo Settimio Severo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0308,Q116729926,Legend Club,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0309,Q3268949,Liceo Stendhal,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0310,Q52828516,Liceo classico Emanuela Setti Carraro dalla Chiesa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0311,Q3832081,Lido di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0312,Q123094672,MI.C,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0313,Q111878941,Maison Borella,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0314,Q111413041,Maison Milano | UNA Esperienze,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0315,Q111413054,"Mandarin Oriental, Milan",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0316,Q112146989,Mascioni opus 1071,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0317,Q112018381,Matilde Boutique Hotel,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0318,Q28668503,Mausoleo Trivulzio,keep_poi,keep_poi,keep_poi,cemetery_funerary_heritage,,religious_heritage,keep_poi,,,,,candidate_exception,,0.0,True
+ann_0319,Q113515489,Mediateca Civica Scuola di Teatro Paolo Grassi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.81,True
+ann_0320,Q113319505,Mediateca LEDHA - Biblioteca Multimediale,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0321,Q113515487,Mediateca civica Scuola di Cinema Luchino Visconti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0322,Q113611867,Mediateca di Fondazione Scuole Civiche di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0323,Q113515488,Mediateca di Milano Civica Scuola Interpreti e Traduttori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0324,Q113515474,Mediateca di Milano Civica Scuola di Musica,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0325,Q123385015,Mercato Centrale Milano,keep_poi,keep_context,keep_poi,special_interest_attraction,,district_streetscape,keep_poi,,,,,candidate_exception,,0.78,True
+ann_0326,Q37158603,Multisala Cinema Splendor,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0327,Q111413034,NH Collection Milano President,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0328,Q111413074,NYX Hotel Milan by Leonardo Hotels,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0329,Q113092733,Nastroteca MAC,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0330,Q111413050,Nhow Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0331,Q37158646,Orfeo Multisala,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0332,Q116153015,Ospedale Macedonio Melloni,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0333,Q3889354,PalaLido,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0334,Q134584382,Palazzo Berardi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.8,True
+ann_0335,Q134583980,Palazzo Bottega Veneta,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0336,Q115728717,Palazzo Fontana Pallavicini,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0337,Q134583697,Palazzo Louis Vuitton,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0338,Q115571220,Palazzo Marliani Sforza,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.8,True
+ann_0339,Q134580223,Palazzo Moncler,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0340,Q111413063,Palazzo Parigi Hotel & Grand Spa Milan,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0341,Q130215923,Palazzo Pertusati,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0342,Q24939065,Palazzo Recalcati Tagliasacchi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0343,Q115728718,Palazzo R√†bia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0344,Q138340233,Palazzo San Fedele,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0345,Q25295856,Palazzo Taverna,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0346,Q28668839,Palazzo Tenca,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0347,Q28669491,Palazzo Troubetzkoy,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0348,Q26258054,Palazzo Veronesi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0349,Q115571533,Palazzo Visconti di Cislago e Somma Lombarda in San Satiro,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0350,Q136720455,Palazzo del Banco di Sicilia (Milano),exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0351,Q134292412,Palazzo della Banca Lombarda,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0352,Q28668073,Palazzo della Cassa di Sovvenzioni ai costruttori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0353,Q111534347,Palazzo della Veneranda Fabbrica del Duomo,keep_context,exclude,keep_poi,,,historic_architecture,,,,,,candidate_exception,,0.78,True
+ann_0354,Q115729623,Palazzo di Gian Giacomo Trivulzio in Rugabella,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0355,Q138679369,Pensionato Universitario Bertoni,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0356,Q56648712,Piazza Eleonora Duse 3,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0357,Q106982718,Piazzale Angelo Moratti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0358,Q106982714,Piazzale Diego Velasquez,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0359,Q114968397,Plastic,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0360,Q3908117,Ponte delle Gabelle,keep_context,exclude,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0361,Q45250306,Ponte delle Sirenette,keep_poi,exclude,keep_poi,urban_landmark,,district_streetscape,keep_poi,,,,,candidate_exception,,0.78,True
+ann_0362,Q3908773,Porta Romana,keep_poi,keep_poi,keep_poi,urban_landmark,urban_landmark,historic_architecture,keep_poi,urban_landmark,,,,candidate_exception,,0.0,True
+ann_0363,Q112941553,"Punto di Prestito ""Cascina Turro"" - Biblioteca Comunale Rionale Crescenzago",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0364,Q7269166,Quark Hotel,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0365,Q55100718,Quartiere Baggio I,exclude,keep_context,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0366,Q55100797,Quartiere IFCP Fabio Filzi,exclude,keep_context,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0367,Q55100698,Quartiere Mangiagalli II,exclude,keep_context,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0368,Q55100745,Quartiere Vialba II,exclude,keep_context,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0369,Q17651730,Quartiere Villa Magentino,exclude,keep_context,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0370,Q16593926,RCS Headquarters,exclude,keep_context,keep_context,,,,keep_context,,,,,candidate_exception,,0.78,True
+ann_0371,Q131760691,Ricevitrice Nord AEM,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0372,Q111413044,Room Mate Giulia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.84,True
+ann_0373,Q7367053,Rosa Grand,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0374,Q117184664,"S. Maurizio e Sigismondo (Monastero Maggiore), Archivio",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0375,Q3943517,SDA Bocconi School of Management,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0376,Q113319500,Sala Consultazione Moda. IED - Istituto Europeo di Design,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0377,Q56604893,Sala d'armi,exclude,keep_poi,keep_poi,,,museum_collection,keep_poi,,,,,candidate_exception,,0.0,True
+ann_0378,Q113687433,Sala di lettura dell'Amministrazione delle Istituzioni pubbliche di assistenza e beneficenza - IPAB - Istituto geriatrico Piero Redaelli,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0379,Q3266546,Salone Margherita,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0380,Q3949256,Santa Tecla,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0381,Q875862,Scuola Germanica di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0382,Q1734889,Scuola Svizzera di Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0383,Q3953368,Scuola superiore d'Arte applicata all'Industria del Castello Sforzesco,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0384,Q111878948,Sina The Gray,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0385,Q124408046,Sio Caf√©,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0386,Q62566206,Stazione funebre di Porta Romana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0387,Q117184659,"Teatro Filodrammatici, Archivio",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0388,Q3982109,Teatro Re,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0389,Q65128230,The Corner,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0390,Q136757906,The Sign Palace,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0391,Q123166498,Thetris,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0392,Q110409361,Torre Arcobaleno,keep_poi,exclude,keep_context,public_art,,,,,,,,candidate_exception,,0.78,True
+ann_0393,Q16616932,Torre Aria,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0394,Q133827113,Torre Bonnet,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0395,Q123024066,Torre Monforte,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0396,Q3995281,Torre Servizi Tecnici Comunali,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0397,Q133826837,Torre Snam,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0398,Q3995283,Torre Snia Viscosa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0399,Q3995285,Torre Solaria,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0400,Q16616963,Torre Solea,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0401,Q30881055,Torre Unipol,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0402,Q3995592,Torre di Porta Romana,exclude,exclude,keep_poi,,,urban_landmark,exclude,,,,,candidate_exception,,0.78,True
+ann_0403,Q131905286,Torri Giume,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.8,True
+ann_0404,Q667974,TownHouse Galleria,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0405,Q111413080,Unahotels Scandinavia Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0406,Q3551506,Universit√† Vita-Salute San Raffaele,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0407,Q1073674,Universit√† degli Studi di Milano-Bicocca,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0408,Q107098075,Via Antonio Pianella,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0409,Q107031029,Via Filippo Tajani,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0410,Q113141424,Via Milazzo 12,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0411,Q59471083,Via Monte Generoso 4,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0412,Q55293141,Via Ulrico Hoepli 5,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0413,Q59470589,Via Vittor Pisani 16,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0414,Q63724768,Via dei Giardini 7,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0415,Q55442993,Viale Abruzzi 94 - Via Nicola Antonio Porpora 10,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0416,Q134567442,Viale Beatrice d'Este 17,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0417,Q136327921,Villa Borletti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0418,Q106632692,Villaggio La Postelegrafonica,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0419,Q112134535,Villaggio Olimpico di Milano,exclude,exclude,keep_context,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0420,Q7988921,Westin Palace Milan,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0421,Q111413069,Windsor Hotel Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0422,Q16623514,World Join Center,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0423,Q98317531,albergo incompiuto di Ponte Lambro,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0424,Q64983710,biblioteca Dergano-Bovisa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0425,Q124547741,biblioteca comunale rionale vigentina,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0426,Q3654700,campo di via Goldoni,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0427,Q85860464,casa Borella,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0428,Q117306367,casa Cozzi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0429,Q113458501,casa Crespi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0430,Q28669478,casa Crespi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0431,Q28668086,casa Grondona,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0432,Q17462057,casa della Meridiana,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0433,Q131740852,cascina Besozzi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0434,Q117124054,case ECA,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0435,Q106542504,case per la cooperativa ¬´Un tetto¬ª,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0436,Q104636529,cavalcavia Pietro Giordani,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0437,Q119075297,chiesa dei Santi Martino e Gerolamo Emiliani,exclude,exclude,keep_poi,,,religious_heritage,exclude,,,,,candidate_exception,,0.0,True
+ann_0438,Q67599683,chiesa di Sant'Anselmo da Baggio Vescovo,exclude,exclude,keep_poi,,,religious_heritage,exclude,,,,,candidate_exception,,0.0,True
+ann_0439,Q3673634,chiesa di Santa Maria alla Fontana,keep_poi,exclude,keep_poi,religious_heritage,,religious_heritage,keep_poi,religious_heritage,,,,candidate_exception,,0.0,True
+ann_0440,Q18207393,chiesa di Santa Maria della Sanit√†,exclude,exclude,keep_poi,,,religious_heritage,exclude,,,,,candidate_exception,,0.0,True
+ann_0441,Q107289882,cinema Adria Rugabella,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0442,Q55992879,cinema Alce,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0443,Q107289330,cinema Alexander,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0444,Q37158210,cinema Ambra,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0445,Q107289478,cinema Araldo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0446,Q107289280,cinema Aramis,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0447,Q107289430,cinema Argo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0448,Q107290225,cinema Astoria,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0449,Q107289240,cinema Golden,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0450,Q107468010,cinema Sempione,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0451,Q107289306,cinema Zodiaco,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0452,Q67025697,condominio Annunciata,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0453,Q3694607,corso Buenos Aires,keep_context,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0454,Q106414615,corso Buenos Aires 75,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0455,Q107477683,corso Buenos Aires 77-79,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0456,Q107477649,corso Buenos Aires 92,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0457,Q105069541,edificio Lanerossi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0458,Q104671607,edificio Tecnimont,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0459,Q55387538,edificio della Chase Manhattan Bank,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.79,True
+ann_0460,Q89123708,galleria Cavour,keep_context,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0461,Q118092532,largo Celestino Usuelli 1,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0462,Q106434478,largo Desio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0463,Q106434476,largo La Foppa,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0464,Q106434470,largo dei Bersaglieri,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0465,Q42306715,molino Dorino,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0466,Q32114071,monumento a Giuseppe Verdi,keep_poi,keep_poi,keep_poi,monument_memorial,monument_memorial,monument_memorial,keep_poi,monument_memorial,,,,candidate_exception,,0.0,True
+ann_0467,Q20008362,organo della chiesa di Sant'Antonio abate a Milano,exclude,exclude,keep_poi,,,religious_heritage,exclude,,,,,candidate_exception,,0.72,True
+ann_0468,Q111534340,palazzo Corio Casati,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0469,Q108916782,palazzo Orti Antichi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0470,Q133042572,palazzo SIE,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0471,Q122336940,palazzo del Consorzio Agrario,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0472,Q115408392,palazzo di via Larga 12 a Milano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0473,Q3895365,parco Alessandrina Ravizza,exclude,keep_poi,keep_poi,,,park_garden_nature,keep_poi,,,,,candidate_exception,,0.0,True
+ann_0474,Q107329537,piazza Angilberto II,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0475,Q106632715,piazza Carbonari 2,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0476,Q89123616,piazza Cavour 1,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0477,Q106629210,piazza IV Novembre 3,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.72,True
+ann_0478,Q105064111,piazza Luigi di Savoia,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0479,Q127789437,piazza Madonna della Provvidenza,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0480,Q107417569,piazza Monte Titano,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0481,Q106633668,piazzale Carlo Maciachini 10,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0482,Q106363430,piazzale Giovanni delle Bande Nere,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0483,Q111082881,piazzale Principessa Clotilde 6,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0484,Q104650262,ponte Guido Crepax,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0485,Q104636519,ponte Richard Ginori,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0486,Q104650303,ponte di San Cristoforo,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0487,Q104650277,ponte ferroviario sul Naviglio Grande,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0488,Q104603303,ponte tranviario di Via Filippo Palizzi,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.82,True
+ann_0489,Q119896130,quartiere Campania,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0490,Q18224388,quartiere Ettore Ponti,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0491,Q18224390,quartiere IACP Lorenteggio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0492,Q20007351,quartiere Lagosta,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0493,Q111083028,quartiere-giardino Tito Livio,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0494,Q124962520,scurolo di San Carlo,exclude,keep_poi,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0495,Q133566,stadio Giuseppe Meazza,keep_context,exclude,keep_poi,,,special_interest_attraction,,,,,,candidate_exception,,0.0,True
+ann_0496,Q73904016,stadio Mario Giuriati,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.81,True
+ann_0497,Q118095275,via Azzo Carbonera 21,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0498,Q106633178,via Carlo Farini 69,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0499,Q106633216,via Carlo Farini 71,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0500,Q111082992,via Edmondo De Amicis 49,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0501,Q59471545,via Edoardo Bassini 46,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0502,Q111083014,"via Felice Casati 39, via Carlo Tenca 1",exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0503,Q118092994,via Garofalo 4,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0504,Q111082971,via Giorgione 8,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0505,Q117124153,via Giovanni Pacini 76,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0506,Q111082817,via Giuseppe Ripamonti 156,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0507,Q119255833,via Larga 7,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0508,Q106633045,via Lepontina 13,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.75,True
+ann_0509,Q118093737,via Monte Cervino 3,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.76,True
+ann_0510,Q118093557,via Monte Cervino 4,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0511,Q107543213,via Vittor Pisani,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0512,Q107478858,via dei Giardini 16,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0513,Q126746787,via delle Forze Armate,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0514,Q59470795,viale Brianza 23,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0515,Q106734230,viale Vittorio Veneto 2,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.0,True
+ann_0516,Q128201160,Q128201160,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0517,Q131338513,Q131338513,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0518,Q133545536,Q133545536,exclude,exclude,exclude,,,,exclude,,,,,candidate_exception,,0.78,True
+ann_0519,Q37158582,Cinema President,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,performing_arts_entertainment,0.64,True
+ann_0520,Q16532522,Universit√† degli Studi di Milano. Biblioteca di Filosofia,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.72,True
+ann_0521,Q113639759,M√©diath√®que Institut Fran√ßais Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.72,True
+ann_0522,Q113319501,"Bibliomediateca ""Laura Lepetit Maltini"" Casa delle donne di Milano",exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.72,True
+ann_0523,Q106637293,chiesa di Santa Maria Goretti,keep_poi,keep_poi,keep_poi,,,religious_heritage,keep_poi,,,,,keep_poi,religious_heritage,0.75,True
+ann_0524,Q71543196,"Teatro ""La piccola Canobbiana""",keep_poi,keep_poi,keep_poi,,,district_streetscape,keep_poi,,,,,keep_poi,historic_architecture,0.75,True
+ann_0525,Q119075357,chiesa di Santa Bernardetta,keep_poi,keep_poi,keep_poi,,,religious_heritage,keep_poi,,,,,keep_poi,religious_heritage,0.76,True
+ann_0526,Q113319496,Biblioteca dell'Associazione NoMus,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.76,True
+ann_0527,Q81173353,Giulio Strazza spa,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0528,Q81173246,Fondazione Biblioteca di via Senato,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0529,Q53864810,Archivi Mondadori,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0530,Q113515453,Biblioteca dell'Istituto di ricerca sulla comunicazione A. Gemelli e C. Musatti,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0531,Q113086134,Biblioteca della Civica scuola di liuteria,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0532,Q113716387,Biblioteca Francescana di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0533,Q26258029,Palazzo Carcassola Grandi,exclude,keep_poi,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.78,True
+ann_0534,Q107289910,cinema Adua,exclude,keep_poi,exclude,,,,exclude,,,,,keep_poi,performing_arts_entertainment,0.78,True
+ann_0535,Q107290110,cinema Alba,exclude,keep_poi,exclude,,,,exclude,,,,,keep_poi,performing_arts_entertainment,0.78,True
+ann_0536,Q113611871,Biblioteca del Dipartimento di diritto privato e storia del diritto dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0537,Q113515437,Centro di documentazione del Touring Club Italiano. TCI,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0538,Q3662008,Cassina Triulza,keep_context,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.78,True
+ann_0539,Q110279400,Casa Barelli,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.78,True
+ann_0540,Q119075312,chiesa di Santa Gianna Beretta Molla,keep_poi,keep_poi,keep_poi,,,religious_heritage,keep_poi,,,,,keep_poi,religious_heritage,0.78,True
+ann_0541,Q106632726,casa Melandri,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.78,True
+ann_0542,Q113515441,Biblioteca del Centro nazionale di studi manzoniani,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0543,Q113319498,Centro studi Associazione Saveria Antiochia Osservatorio antimafia - SAO,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0544,Q113515431,Biblioteca della Societ√† Italiana di Scienze Naturali,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,science_education_attraction,0.78,True
+ann_0545,Q134538687,Viale Beatrice d'Este 38,exclude,keep_poi,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.78,True
+ann_0546,Q113525912,Biblioteca del Segretariato regionale per la Lombardia,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0547,Q5180292,Cracco,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0548,Q113319449,Biblioteca del Corriere della Sera,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0549,Q113086132,Civica Biblioteca archeologica e numismatica di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0550,Q81173413,Il Sole 24 Ore spa,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0551,Q113610845,Biblioteca San Barnaba dell'Istituto Zaccaria,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0552,Q81173054,Dellera,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0553,Q113610842,Biblioteca Nazionale Giuseppe Dell'Osso dell'Accademia italiana della cucina,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0554,Q81172408,Archivio provinciale dei cappuccini lombardi - Biblioteca francescano-cappuccina provinciale,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0555,Q113319487,Biblioteca della Fondazione Guido Lodovico Luzzatto,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0556,Q119075355,chiesa di San Vito al Giambellino,keep_poi,keep_poi,keep_poi,,,religious_heritage,keep_poi,,,,,keep_poi,religious_heritage,0.78,True
+ann_0557,Q81173243,Fondazione Arnoldo e Alberto Mondadori,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.78,True
+ann_0558,Q113515435,Biblioteca dell'Istituto nazionale Ferruccio Parri,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0559,Q3803773,Istituto Lombardo Accademia di Scienze e Lettere,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,science_education_attraction,0.78,True
+ann_0560,Q113610835,Biblioteca del Goethe-Institut Mailand,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,science_education_attraction,0.78,True
+ann_0561,Q112941686,Biblioteca Comunale Rionale Valvassori Peroni,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.78,True
+ann_0562,Q55993030,Cinema Abanella,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,performing_arts_entertainment,0.78,True
+ann_0563,Q113528707,Biblioteca Storica del Politecnico di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.8,True
+ann_0564,Q113535857,Biblioteca della Fondazione Arnoldo e Alberto Mondadori,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.81,True
+ann_0565,Q113515439,Biblioteca del Museo nazionale della scienza e della tecnologia Leonardo da Vinci,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0566,Q114868646,Pio Istituto oftalmico,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0567,Q81172592,Cavalleri Mattavelli sas di Mattavelli Maurizio & C.,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0568,Q113515428,Biblioteca della Societ√† umanitaria,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0569,Q30880225,Cascina Monterobbio,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0570,Q107289800,cinema Adriano,exclude,keep_poi,keep_poi,,,district_streetscape,keep_poi,,,,,keep_poi,performing_arts_entertainment,0.82,True
+ann_0571,Q26258057,Palazzo Berardi,exclude,keep_poi,keep_poi,,,historic_architecture,keep_poi,,,,,keep_poi,historic_architecture,0.82,True
+ann_0572,Q113515432,Biblioteca della Societ√† per le belle arti ed esposizione permanente,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0573,Q19841918,chiesa della Madonna della Fede,keep_poi,keep_poi,keep_poi,,,religious_heritage,keep_poi,,,,,keep_poi,religious_heritage,0.82,True
+ann_0574,Q55395339,Casa del Cedro,keep_poi,keep_poi,keep_poi,,,,keep_poi,,,,,keep_poi,historic_architecture,0.82,True
+ann_0575,Q3639660,Biblioteca dell'Istituto per la Scienza dell'Amministrazione Pubblica,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0576,Q113515426,Biblioteca del Museo Bagatti Valsecchi,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0577,Q113092727,Biblioteca del Pontificio istituto ambrosiano di musica sacra - PIAMS,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0578,Q113535858,Biblioteca della Fondazione Gustavo Sanvenero-Rosselli,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,science_education_attraction,0.82,True
+ann_0579,Q134569077,Via Agnesi 15,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0580,Q107289172,cinema Istria,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0581,Q124360755,"Archivio della Chiesa di S. Fedele di Milano, Milano (I-Maf)",exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0582,Q107289582,cinema Europa,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,performing_arts_entertainment,0.82,True
+ann_0583,Q55291707,corso Sempione 33,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0584,Q113610843,Biblioteca dell'Archivio di Etnografia e Storia Sociale. AESS,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0585,Q104812760,Biblioteca e Archivio del Capitolo Metropolitano di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.82,True
+ann_0586,Q26258070,Casa Bassanini,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0587,Q102319593,Fondazione Corriere della Sera,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0588,Q1413761,Policlinico di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.82,True
+ann_0589,Q81173241,Fondazione Alessandro Durini,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.82,True
+ann_0590,Q26258052,Domus Julia,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.84,True
+ann_0591,Q130314317,Edificio Leonardo Del Vecchio,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.84,True
+ann_0592,Q81173205,Falck spa,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.84,True
+ann_0593,Q3621644,Archivio Storico Ricordi,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.84,True
+ann_0594,Q3639650,Biblioteca d'arte del Castello Sforzesco,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.84,True
+ann_0595,Q113610833,Biblioteca dei Servi di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,science_education_attraction,0.85,False
+ann_0596,Q106434507,Largo Isabella d'Aragona,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,district_streetscape,0.85,False
+ann_0597,Q111970524,edificio in via San Paolo 7 e via Agnello 6,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.85,False
+ann_0598,Q113527480,Biblioteca e Archivio dell'Istituto lombardo Accademia di scienze e lettere,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0599,Q97136185,casa Fiocchi,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.85,False
+ann_0600,Q111569178,piazza Geremia Bonomelli,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,urban_landmark,0.85,False
+ann_0601,Q21235146,Galleria Pesaro,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,gallery_art_space,0.85,False
+ann_0602,Q113515446,Biblioteca della Fondazione Centro di documentazione ebraica contemporanea. CDEC,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0603,Q117192253,"Biblioteca Francescana (Provinciale, di S. Angelo)",exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.85,False
+ann_0604,Q112139767,"Istituto Tecnico Statale Sperimentale ""Pier Paolo Pasolini""",exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.85,False
+ann_0605,Q81172328,Archivio storico civico della biblioteca Trivulziana,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,museum_collection,0.85,False
+ann_0606,Q17275475,Palazzo di Fuoco,keep_context,keep_poi,keep_poi,,,historic_architecture,keep_poi,,,,,keep_poi,historic_architecture,0.85,False
+ann_0607,Q107552561,Torre A2A,keep_context,keep_poi,keep_context,,,,keep_context,,,,,keep_poi,urban_landmark,0.85,False
+ann_0608,Q64825395,Arena Santa Giulia,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0609,Q91092816,palazzo Michelin,exclude,keep_poi,keep_poi,,,urban_landmark,keep_poi,,,,,keep_poi,historic_architecture,0.85,False
+ann_0610,Q113535863,Biblioteca della Fondazione Pirelli,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0611,Q119075300,"chiesa del Centro Familiare ""La Cripta""",keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_poi,religious_heritage,0.85,False
+ann_0612,Q95148474,Villa Fossati,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.85,False
+ann_0613,Q119075316,chiesa di Dio Padre,exclude,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_poi,religious_heritage,0.85,False
+ann_0614,Q85726768,Biblioteca dell'Instituto Cervantes di Milano - Jorge Guill√©n,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0615,Q113515476,Biblioteca della Fondazione Corrente,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0616,Q116609404,Palazzo INPS,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,historic_architecture,0.85,False
+ann_0617,Q974532,Biblioteca Trivulziana,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0618,Q28668242,Biblioteca di Studi giuridici e umanistici Universit√† degli Studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,keep_poi,special_interest_attraction,0.85,False
+ann_0619,Q3671391,chiesa di San Nazaro in Pietrasanta,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.77,True
+ann_0620,Q20009567,Galleria Volpi Bassani,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.78,True
+ann_0621,Q25393396,Teatro Tenda,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.82,True
+ann_0622,Q59878510,Quartiere Antonini,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.82,True
+ann_0623,Q18202815,antica chiesa di San Giovanni in Laterano,keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_context,,0.85,False
+ann_0624,Q106861451,aula delle monache,keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_context,,0.85,False
+ann_0625,Q25409436,antica chiesa di San Carlo,keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_context,,0.85,False
+ann_0626,Q3673684,chiesa di Santa Maria dei Servi,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.85,False
+ann_0627,Q3890571,Palazzo Orrigoni,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.85,False
+ann_0628,Q56697587,corso Italia,exclude,exclude,keep_context,,,,exclude,,,,,keep_context,,0.85,False
+ann_0629,Q18223521,chiesa di San Giovanni Decollato alle Case Rotte,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.85,False
+ann_0630,Q107552631,piazza Trento,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.85,False
+ann_0631,Q3642888,Bosco di Gioia,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.85,False
+ann_0632,Q106485576,corso di Porta Vigentina,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0633,Q113130799,via Brembo,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0634,Q134621522,Via Giovanni Bellezza,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0635,Q110937099,viale Angelo Filippetti,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0636,Q16545212,corso Lodi,exclude,keep_context,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0637,Q3889858,Palazzo Cicogna,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0638,Q56477196,Teatro Trianon (Milano),exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0639,Q3691002,Coperto dei Figini,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0640,Q3890288,Palazzo Imbonati,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0641,Q3889545,Palazzo Arcimboldi,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0642,Q18145239,Casino Reale,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0643,Q3635689,antica basilica di San Dionigi,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0644,Q3970114,stazione di Milano Centrale (1864),exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0645,Q17652102,San Gregorio Vecchio,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0646,Q124795585,via Morigi,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0647,Q134582279,Professed House of Milan,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.86,False
+ann_0648,Q106371456,viale Brenta,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.87,False
+ann_0649,Q131897055,Via Rastrelli,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.87,False
+ann_0650,Q111187263,via Luigi Anelli,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0651,Q3674100,chiesa di Santa Maria in Brera,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0652,Q107122968,Via Dei Calchi Taeggi,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0653,Q55100899,quartiere Villapizzone,exclude,keep_context,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0654,Q106861459,aula dei fedeli,keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,keep_context,,0.88,False
+ann_0655,Q60468852,Largo della Crocetta,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0656,Q18417048,chiesa di Santa Maria della Rosa,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0657,Q107122965,Via Gian Carlo Castelbarco,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0658,Q87905550,battistero di Santo Stefano alle Fonti,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0659,Q18224544,chiesa di San Salvatore in Xenodochio,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0660,Q55100738,quartiere Vialba I,exclude,keep_context,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0661,Q134888936,Via dei Panigarola,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0662,Q107711623,viale Isonzo,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0663,Q28520462,Casa Mozzanica,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0664,Q30120052,corso di Porta Romana,keep_context,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0665,Q105047623,via Clerici,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0666,Q102130047,chiesa di Sant‚ÄôAndrea alla Pusterla Nuova,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0667,Q18223420,antica chiesa di San Francesco grande,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0668,Q18224029,chiesa di San Michele alla Chiusa,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0669,Q62588146,Teatro Manzoni,keep_poi,exclude,keep_poi,performing_arts_entertainment,,district_streetscape,keep_poi,,,,,keep_context,,0.88,False
+ann_0670,Q106415924,via Santa Sofia,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0671,Q3277167,Teatro Regio Ducale,keep_poi,keep_poi,keep_poi,,,district_streetscape,keep_poi,,,,,keep_context,,0.88,False
+ann_0672,Q107521470,via Adige,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0673,Q55166258,antica chiesa di San Pietro alla Vigna,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0674,Q36832507,piazza Belgioioso,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0675,Q17144871,viale Luigi Majno,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0676,Q135311802,viale Col di Lana,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.88,False
+ann_0677,Q115408429,via Larga,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.9,False
+ann_0678,Q111366327,viale Toscana,exclude,exclude,exclude,,,,exclude,,,,,keep_context,,0.9,False
+ann_0679,Q113319504,Biblioteca dell'Istituto Marangoni,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.85,False
+ann_0680,Q113298704,Biblioteca del Dipartimento di scienze cliniche Luigi Sacco. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.85,False
+ann_0681,Q113527479,Biblioteca dell'Istituto scientifico di chimica e biochimica Giuliana Ronzoni,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.85,False
+ann_0682,Q112941447,Biblioteca Comunale Rionale Villapizzone,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.85,False
+ann_0683,Q113319454,Centro documentazione e biblioteca di PoliS-Lombardia,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.85,False
+ann_0684,Q113298697,"Biblioteca dell'Istituto di istologia, embriologia e neurocitologia della Facolt√† di medicina e chirurgia. Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0685,Q106633352,via Carlo Farini 73,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0686,Q113528706,Biblioteca del Polo centrale di medicina e chirurgia dell'Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0687,Q113298686,Biblioteca di Scienze agrarie e alimentari. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0688,Q109325123,piazza Piemonte 10,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0689,Q52805067,Via Lamennais,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0690,Q113298750,Centro di documentazione del Dipartimento di studi sociali e politici. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0691,Q18785507,antico oratorio di San Giovanni Battista,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0692,Q115169614,Scuola Europa di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0693,Q113298692,Biblioteca del Dipartimento di scienze cardiovascolari. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0694,Q113515454,Biblioteca Fondazione I.R.C.C.S. Istituto Neurologico Carlo Besta,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0695,Q52789497,Morante,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0696,Q107468396,cinema Donizetti,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.86,False
+ann_0697,Q113319486,Biblioteca dell'Istituto europeo di oncologia,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.87,False
+ann_0698,Q113527481,Biblioteca del Centro culturale Antonianum,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.87,False
+ann_0699,Q113298700,Biblioteca del Dipartmento di Morfologia umana e scienze biomediche. Sez. di medicina legale e delle assicurazioni. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.87,False
+ann_0700,Q113298724,Biblioteca del Dipartimento di diritto pubblico italiano e sovranazionale. sezione di Diritto internazionale. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.87,False
+ann_0701,Q4011851,Villa Caimi,exclude,keep_poi,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0702,Q18417011,chiesa di San Donnino alla Mazza,keep_poi,keep_poi,keep_poi,religious_heritage,religious_heritage,religious_heritage,keep_poi,religious_heritage,,,,exclude,,0.88,False
+ann_0703,Q113298748,"Biblioteca del Dipartimento di scienze economiche, aziendali e statistiche. Universit√† degli Studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0704,Q132148042,Ex officina Squadra Rialzo della stazione di Milano centrale,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0705,Q111123750,Hotel Dateo,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0706,Q111878962,iQ Hotel Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0707,Q113298735,Biblioteca del polo di lingue e letterature straniere. Sezione di Germanistica. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0708,Q112146568,Mascioni opus 667,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0709,Q112146204,Mascioni opus 311,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0710,Q3953343,"Scuola militare ""Teuli√©""",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0711,Q3953349,Scuola Politecnica di Design,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0712,Q113515485,Biblioteca dell'Ospedale Fatebenefratelli e Oftalmico,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0713,Q113298683,"Biblioteca del Dipartimento di Anestesiologia, terapia intensiva e scienze dermatologiche. Sez. di scienze dermatologiche Agostino Pasini. Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0714,Q113515463,Biblioteca scientifica dell'Ospedale Maggiore di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0715,Q113298711,Biblioteca biomedica di Citt√† Studi. Universit√† degli Studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0716,Q55993793,Cinema Hermes,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0717,Q113298755,Biblioteca del Dipartimento di scienze neurologiche. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0718,Q113298743,Biblioteca dell'Istituto di diritto del lavoro della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0719,Q113298684,Biblioteca del Dipartimento di Scienze materno infantili. Sezione di clinica ostetrica e ginecologica. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0720,Q113298689,Biblioteca dell'Istituto di chimica organica della Facolt√† di farmacia. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0721,Q113359644,"Biblioteca ""Regina Gani"" del Liceo Classico statale ""Alessandro Manzoni""",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0722,Q113298762,Biblioteca dell'Istituto di diritto internazionale. Sezione di diritto ecclesiastico e diritto canonico della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.88,False
+ann_0723,Q52827642,Giulio Natta,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.89,False
+ann_0724,Q113298685,Biblioteca del Dipartimento di scienze e tecnologie biomediche. Sezione di scienze radiologiche. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0725,Q111878975,Hotel VIU Milan,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0726,Q104177316,Universit√† Popolare degli Studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0727,Q113298730,Biblioteca dell'Istituto di diritto penale e processuale penale della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0728,Q113298716,Biblioteca Alberto Malliani. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0729,Q136670499,Carcere di Bollate,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0730,Q3705677,deposito ATM Famagosta,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0731,Q56010658,Cinema Pussycat,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0732,Q109158100,Asilo comunale di Via Salasco,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0733,Q111413049,LHP Hotel Napoleon,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0734,Q52830864,R.Govone - Pavoni,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0735,Q111123749,Hotel Parma,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0736,Q19841970,stazione di Chiaravalle Milanese,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0737,Q64032795,Scuola del Fumetto di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0738,Q113298717,"Biblioteca del Dipartimento di sanit√† pubblica, microbiologia, virologia. Universit√† degli studi di Milano",exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0739,Q111413036,Art Hotel Navigli,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0740,Q112941437,Biblioteca Comunale Rionale Venezia,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0741,Q113611870,Biblioteche delle Scuole civiche paritarie di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0742,Q111413062,Unahotels Cusani Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0743,Q111413065,Hotel Mediolanum,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0744,Q113298723,Biblioteca del Dipartimento giuridico-politico. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0745,Q52830458,scuola primaria Bruno Munari,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0746,Q113298740,Biblioteca dell'Istituto di diritto romano della Facolt√† di giurisprudenza. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0747,Q18785417,antica chiesa di San Marcellino,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0748,Q112018384,Hotel Tocq,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0749,Q112018377,Duomo Rooms,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0750,Q52839349,F.S.Cabrini - Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0751,Q113319465,Biblioteca dell'Istituto Ganassini di ricerche biochimiche,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0752,Q4014727,Virus,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0753,Q64032734,Istituto Cimabue d'arte e cultura,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0754,Q111413067,Hotel Berna,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0755,Q113298738,Biblioteca del Dipartimento di diritto pubblico italiano e sovranazionale. sezione di Diritto pubblico. Universit√† degli studi di Milano,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0756,Q52799099,Giuseppe Luigi Lagrange,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0757,Q113319452,Biblioteca Indena,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False
+ann_0758,Q52794108,Via Solaroli,exclude,exclude,exclude,,,,exclude,,,,,exclude,,0.9,False

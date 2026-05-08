@@ -1,0 +1,502 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-369",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.129715509023097 45.44423593843171)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-57",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:57"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-57"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - PARCO BOSCO IN CITTA' - 57"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-113",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:113"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-113"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - LORENTEGGIO - 113"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-4177",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:4177"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4177"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - STADIO - IPPODROMI - 4177"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-66",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:66"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-66"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - LORENTEGGIO - 66"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-57",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.10717081331941 45.48267991408669)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-5407",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.104075763359273 45.45100463400172)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-4187",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:4187"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4187"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - Q.RE GALLARATESE - Q.RE SAN LEONARDO - LAMPUGNANO - 4187"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4177",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.118482572890422 45.475740896845565)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-113",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.130817266624764 45.45552751148572)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4187",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.105256719472628 45.504279305467456)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-450",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.138156332802376 45.45523660672675)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-5407",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:5407"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-5407"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - LORENTEGGIO - 5407"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-43",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:43"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-43"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - STADIO - IPPODROMI - 43"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-12686",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:12686"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-12686"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - BANDE NERE - 12686"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-450",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:450"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-450"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - BANDE NERE - 450"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-66",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.121648321510166 45.45234123104463)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-12686",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.133141801683118 45.466087235927034)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/vedovelle/vedovelle-369",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/SupportService",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "vedovelle:369"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-369"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vedovella - GIAMBELLINO - 369"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/vedovelle"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/SupportService"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-43",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.133283749284725 45.475414826649924)"
+      }
+    ]
+  }
+]

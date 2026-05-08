@@ -1,0 +1,803 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix evt: <http://eventour.unimib.it/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+evt:Bench a owl:Class ;
+    rdfs:label "Bench"@en ;
+    rdfs:subClassOf evt:StreetFurniture .
+
+evt:BicycleParkingArea a owl:Class ;
+    rdfs:label "Bicycle parking area"@en ;
+    rdfs:subClassOf evt:Facility .
+
+evt:BikeSharingStation a owl:Class ;
+    rdfs:label "Bike-sharing station"@en ;
+    rdfs:subClassOf evt:Facility,
+        evt:ServiceAccessPoint .
+
+evt:DrinkingFountain a owl:Class ;
+    rdfs:label "Drinking fountain"@en ;
+    rdfs:subClassOf evt:Infrastructure,
+        evt:ServiceAccessPoint .
+
+evt:EVChargingStation a owl:Class ;
+    rdfs:label "EV charging station"@en ;
+    rdfs:subClassOf evt:Facility,
+        evt:Infrastructure,
+        evt:ServiceAccessPoint .
+
+evt:EventourOntology a owl:Ontology ;
+    rdfs:label "Eventour ontology"@en ;
+    dct:description "Ontology for the Eventour multi-layer urban knowledge graph, covering municipal urban infrastructure, mobility and service layers, and a role-based semantic place layer."@en ;
+    owl:versionInfo "2026-05-03" .
+
+evt:GeometrySample a owl:Class ;
+    rdfs:label "Geometry sample"@en .
+
+evt:HistoricShop a owl:Class ;
+    rdfs:label "Historic shop"@en ;
+    rdfs:subClassOf evt:Facility .
+
+evt:InterchangeParkingFacility a owl:Class ;
+    rdfs:label "Interchange parking facility"@en ;
+    rdfs:subClassOf evt:ParkingFacility .
+
+evt:MetroStation a owl:Class ;
+    rdfs:label "Metro station"@en ;
+    rdfs:subClassOf evt:Stop .
+
+evt:Municipality a owl:Class ;
+    rdfs:label "Municipality"@en ;
+    rdfs:subClassOf evt:AdministrativeArea .
+
+evt:NILArea a owl:Class ;
+    rdfs:label "Nucleo di Identità Locale area"@en ;
+    rdfs:subClassOf evt:AdministrativeArea .
+
+evt:ParkingFacility a owl:Class ;
+    rdfs:label "Parking facility"@en ;
+    rdfs:subClassOf evt:Facility,
+        evt:ServiceAccessPoint .
+
+evt:PicnicTable a owl:Class ;
+    rdfs:label "Picnic table"@en ;
+    rdfs:subClassOf evt:StreetFurniture .
+
+evt:Project a owl:Class ;
+    rdfs:label "Project"@en ;
+    rdfs:subClassOf evt:UrbanThing .
+
+evt:PublicToilet a owl:Class ;
+    rdfs:label "Public toilet"@en ;
+    rdfs:subClassOf evt:Facility,
+        evt:ServiceAccessPoint .
+
+evt:RoutePattern a owl:Class ;
+    rdfs:label "Route pattern"@en ;
+    rdfs:subClassOf evt:TransportEntity,
+        geo:Feature .
+
+evt:Service a owl:Class ;
+    rdfs:label "Service"@en ;
+    rdfs:subClassOf evt:UrbanThing .
+
+evt:ServicePattern a owl:Class ;
+    rdfs:label "Service pattern"@en ;
+    rdfs:subClassOf evt:TransportEntity .
+
+evt:SourceRecord a owl:Class ;
+    rdfs:label "Source record"@en ;
+    rdfs:subClassOf prov:Entity .
+
+evt:Stop a owl:Class ;
+    rdfs:label "Transit stop"@en ;
+    rdfs:subClassOf evt:Facility,
+        evt:ServiceAccessPoint .
+
+evt:StopInRoute a owl:Class ;
+    rdfs:label "Stop in route"@en ;
+    rdfs:subClassOf evt:TransportEntity .
+
+evt:Street a owl:Class ;
+    rdfs:label "Street"@en ;
+    rdfs:subClassOf evt:UrbanThing .
+
+evt:TimetableSummary a owl:Class ;
+    rdfs:label "Timetable summary"@en ;
+    rdfs:subClassOf evt:TransportEntity .
+
+evt:TransitLine a owl:Class ;
+    rdfs:label "Transit line"@en ;
+    rdfs:subClassOf evt:TransportEntity .
+
+evt:Tree a owl:Class ;
+    rdfs:label "Tree"@en ;
+    rdfs:subClassOf evt:PhysicalAsset .
+
+evt:WiFiAccessPoint a owl:Class ;
+    rdfs:label "Wi-Fi access point"@en ;
+    rdfs:subClassOf evt:Infrastructure,
+        evt:ServiceAccessPoint .
+
+evt:additionalInfo a rdf:Property ;
+    rdfs:label "additional information"@en .
+
+evt:areaCode a rdf:Property ;
+    rdfs:label "area code"@en .
+
+evt:areaIdentifier a rdf:Property ;
+    rdfs:label "area identifier"@en .
+
+evt:assetDescription a rdf:Property ;
+    rdfs:label "asset description"@en .
+
+evt:availability a rdf:Property ;
+    rdfs:label "availability"@en .
+
+evt:availabilityDescription a rdf:Property ;
+    rdfs:label "availability description"@en .
+
+evt:capacityDescription a rdf:Property ;
+    rdfs:label "capacity description"@en .
+
+evt:chargingTypology a rdf:Property ;
+    rdfs:label "charging typology"@en .
+
+evt:commercialCategory a rdf:Property ;
+    rdfs:label "commercial category"@en .
+
+evt:conversionRuleNote a rdf:Property ;
+    rdfs:label "conversion rule note"@en .
+
+evt:crownDiameterM a rdf:Property ;
+    rdfs:label "crown diameter in meters"@en .
+
+evt:crownDiameter a rdf:Property ;
+    rdfs:label "crown diameter"@en .
+
+evt:dailyTrips a rdf:Property ;
+    rdfs:label "daily trips"@en .
+
+evt:dayType a rdf:Property ;
+    rdfs:label "day type"@en .
+
+evt:derivedRelationNote a rdf:Property ;
+    rdfs:label "derived relation note"@en .
+
+evt:derivedValueNote a rdf:Property ;
+    rdfs:label "derived value note"@en .
+
+evt:endTime a rdf:Property ;
+    rdfs:label "end time"@en .
+
+evt:establishedYear a rdf:Property ;
+    rdfs:label "established year"@en .
+
+evt:eveningTrips a rdf:Property ;
+    rdfs:label "evening trips"@en .
+
+evt:facilityCategory a rdf:Property ;
+    rdfs:label "facility category"@en .
+
+evt:facilityType a rdf:Property ;
+    rdfs:label "facility type"@en .
+
+evt:featureCount a rdf:Property ;
+    rdfs:label "feature count"@en .
+
+evt:forRoutePattern a rdf:Property ;
+    rdfs:label "for route pattern"@en .
+
+evt:forTransitLine a rdf:Property ;
+    rdfs:label "for transit line"@en .
+
+evt:genus a rdf:Property ;
+    rdfs:label "genus"@en .
+
+evt:geometryAvailabilityNote a rdf:Property ;
+    rdfs:label "geometry availability note"@en .
+
+evt:geometryCoordinatesSample a rdf:Property ;
+    rdfs:label "geometry coordinates sample"@en .
+
+evt:geometryType a rdf:Property ;
+    rdfs:label "geometry type"@en .
+
+evt:hasCurationLabel a owl:ObjectProperty,
+        rdf:Property ;
+    rdfs:label "has curation label"@en ;
+    rdfs:comment "Stores the normalized curation label assigned during semantic place curation."@en ;
+    rdfs:domain evt:Place ;
+    rdfs:range skos:Concept .
+
+evt:hasEventourCategory a owl:ObjectProperty,
+        rdf:Property ;
+    rdfs:label "has Eventour category"@en ;
+    rdfs:comment "Associates a primary or secondary place with a semantic Eventour category."@en ;
+    rdfs:domain evt:Place ;
+    rdfs:range skos:Concept .
+
+evt:hasEventourRole a owl:ObjectProperty,
+        rdf:Property ;
+    rdfs:label "has Eventour role"@en ;
+    rdfs:comment "Associates a semantic place with its application role in Eventour."@en ;
+    rdfs:domain evt:Place ;
+    rdfs:range skos:Concept .
+
+evt:hasGeometrySample a rdf:Property ;
+    rdfs:label "has geometry sample"@en .
+
+evt:hasPrimaryFamily a owl:ObjectProperty,
+        rdf:Property ;
+    rdfs:label "has primary family"@en ;
+    rdfs:comment "Links an entity to its broad Eventour family."@en ;
+    rdfs:domain evt:UrbanEntity ;
+    rdfs:range owl:Class .
+
+evt:hasSecondaryFamily a owl:ObjectProperty,
+        rdf:Property ;
+    rdfs:label "has secondary family"@en ;
+    rdfs:comment "Links an entity to an additional Eventour family when applicable."@en ;
+    rdfs:domain evt:UrbanEntity ;
+    rdfs:range owl:Class .
+
+evt:hasStopInRoute a rdf:Property ;
+    rdfs:label "has stop in route"@en .
+
+evt:hasTimetableSummary a rdf:Property ;
+    rdfs:label "has timetable summary"@en .
+
+evt:heightM a rdf:Property ;
+    rdfs:label "height in meters"@en .
+
+evt:implementationStatus a rdf:Property ;
+    rdfs:label "implementation status"@en .
+
+evt:inMunicipality a rdf:Property ;
+    rdfs:label "in municipality"@en .
+
+evt:inNIL a rdf:Property ;
+    rdfs:label "in NIL area"@en .
+
+evt:inSubNIL a rdf:Property ;
+    rdfs:label "in sub-NIL area"@en .
+
+evt:inferredNILIdentifier a rdf:Property ;
+    rdfs:label "inferred NIL identifier"@en .
+
+evt:inferredNILName a rdf:Property ;
+    rdfs:label "inferred NIL name"@en .
+
+evt:infrastructureType a rdf:Property ;
+    rdfs:label "infrastructure type"@en .
+
+evt:installationDate a rdf:Property ;
+    rdfs:label "installation date"@en .
+
+evt:installationYear a rdf:Property ;
+    rdfs:label "installation year"@en .
+
+evt:interchangeInformation a rdf:Property ;
+    rdfs:label "interchange information"@en .
+
+evt:interchangesWithLine a rdf:Property ;
+    rdfs:label "interchanges with line"@en .
+
+evt:lineNumber a rdf:Property ;
+    rdfs:label "line number"@en .
+
+evt:lineOfRoute a rdf:Property ;
+    rdfs:label "line of route"@en .
+
+evt:locality a rdf:Property ;
+    rdfs:label "locality"@en .
+
+evt:locatedOnStreet a rdf:Property ;
+    rdfs:label "located on street"@en .
+
+evt:locationDescription a rdf:Property ;
+    rdfs:label "location description"@en .
+
+evt:metadataCompletionNote a rdf:Property ;
+    rdfs:label "metadata completion note"@en .
+
+evt:municipalityName a rdf:Property ;
+    rdfs:label "municipality name"@en .
+
+evt:nilInferenceMethod a rdf:Property ;
+    rdfs:label "NIL inference method"@en .
+
+evt:nilName a rdf:Property ;
+    rdfs:label "NIL name"@en .
+
+evt:numberOfBikeStalls a rdf:Property ;
+    rdfs:label "number of bike stalls"@en .
+
+evt:numberOfChargingColumns a rdf:Property ;
+    rdfs:label "number of charging columns"@en .
+
+evt:numberOfChargingPoints a rdf:Property ;
+    rdfs:label "number of charging points"@en .
+
+evt:numberOfDocks a rdf:Property ;
+    rdfs:label "number of docks"@en .
+
+evt:numberOfStops a rdf:Property ;
+    rdfs:label "number of stops"@en .
+
+evt:numberOfStructures a rdf:Property ;
+    rdfs:label "number of structures"@en .
+
+evt:offPeakTrips a rdf:Property ;
+    rdfs:label "off-peak trips"@en .
+
+evt:ordinance a rdf:Property ;
+    rdfs:label "ordinance"@en .
+
+evt:ordinanceReference a rdf:Property ;
+    rdfs:label "ordinance reference"@en .
+
+evt:originalDownloadURLToBeAdded a rdf:Property ;
+    rdfs:label "original download URL to be added"@en .
+
+evt:originalFileName a rdf:Property ;
+    rdfs:label "original file name"@en .
+
+evt:parkingSpaces a rdf:Property ;
+    rdfs:label "parking spaces"@en .
+
+evt:parkingAreaIdentifier a rdf:Property ;
+    rdfs:label "parking area identifier"@en .
+
+evt:parkingAreaName a rdf:Property ;
+    rdfs:label "parking area name"@en .
+
+evt:parkingType a rdf:Property ;
+    rdfs:label "parking type"@en .
+
+evt:partOfProject a rdf:Property ;
+    rdfs:label "part of project"@en .
+
+evt:peakTrips a rdf:Property ;
+    rdfs:label "peak trips"@en .
+
+evt:placementContext a rdf:Property ;
+    rdfs:label "placement context"@en .
+
+evt:permittedVehicleType a rdf:Property ;
+    rdfs:label "permitted vehicle type"@en .
+
+evt:providesAccessTo a rdf:Property ;
+    rdfs:label "provides access to service"@en .
+
+evt:rackType a rdf:Property ;
+    rdfs:label "rack type"@en .
+
+evt:responsibleOrganization a rdf:Property ;
+    rdfs:label "responsible organization"@en .
+
+evt:routeDirection a rdf:Property ;
+    rdfs:label "route direction"@en .
+
+evt:routeLengthKm a rdf:Property ;
+    rdfs:label "route length in km"@en .
+
+evt:routeType a rdf:Property ;
+    rdfs:label "route type"@en .
+
+<http://eventour.unimib.it/scheme/charging-infrastructure> a skos:ConceptScheme ;
+    rdfs:label "Charging infrastructure concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/charging-infrastructure/ac-normal> ;
+    skos:prefLabel "Charging infrastructure values"@en .
+
+<http://eventour.unimib.it/scheme/charging-typology> a skos:ConceptScheme ;
+    rdfs:label "Charging typology concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/charging-typology/f>,
+        <http://eventour.unimib.it/charging-typology/n>,
+        <http://eventour.unimib.it/charging-typology/q>,
+        <http://eventour.unimib.it/charging-typology/qn> ;
+    skos:prefLabel "Charging typology values"@en .
+
+<http://eventour.unimib.it/scheme/commercial-category> a skos:ConceptScheme ;
+    rdfs:label "Commercial category concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/commercial-category/ristorante> ;
+    skos:prefLabel "Commercial category values"@en .
+
+<http://eventour.unimib.it/scheme/dataset-theme> a skos:ConceptScheme ;
+    rdfs:label "Dataset theme concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/dataset-theme/administrative-boundary>,
+        <http://eventour.unimib.it/dataset-theme/commerce-heritage>,
+        <http://eventour.unimib.it/dataset-theme/green-urban-furniture>,
+        <http://eventour.unimib.it/dataset-theme/mobility>,
+        <http://eventour.unimib.it/dataset-theme/parking-energy>,
+        <http://eventour.unimib.it/dataset-theme/public-service> ;
+    skos:prefLabel "Dataset themes"@en .
+
+<http://eventour.unimib.it/scheme/day-type> a skos:ConceptScheme ;
+    rdfs:label "Transit day type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/day-type/holiday>,
+        <http://eventour.unimib.it/day-type/saturday>,
+        <http://eventour.unimib.it/day-type/working-day> ;
+    skos:prefLabel "Transit day type values"@en .
+
+<http://eventour.unimib.it/scheme/facility-type> a skos:ConceptScheme ;
+    rdfs:label "Facility type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/facility-type/mobile> ;
+    skos:prefLabel "Facility type values"@en .
+
+<http://eventour.unimib.it/scheme/implementation-status> a skos:ConceptScheme ;
+    rdfs:label "Implementation status concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/implementation-status/revamping> ;
+    skos:prefLabel "Implementation status values"@en .
+
+<http://eventour.unimib.it/scheme/parking-facility-category> a skos:ConceptScheme ;
+    rdfs:label "Parking facility category concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/parking-facility-category/interchange> ;
+    skos:prefLabel "Parking facility category values"@en .
+
+<http://eventour.unimib.it/scheme/parking-type> a skos:ConceptScheme ;
+    rdfs:label "Parking type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/parking-type/residenti-pubblici> ;
+    skos:prefLabel "Parking type values"@en .
+
+<http://eventour.unimib.it/scheme/placement-context> a skos:ConceptScheme ;
+    rdfs:label "Placement context concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/placement-context/area-verde-giardino-parco>,
+        <http://eventour.unimib.it/placement-context/carreggiata>,
+        <http://eventour.unimib.it/placement-context/marciapiede> ;
+    skos:prefLabel "Placement context values"@en .
+
+<http://eventour.unimib.it/scheme/rack-type> a skos:ConceptScheme ;
+    rdfs:label "Rack/manufatto type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/rack-type/verona-ambrogio> ;
+    skos:prefLabel "Rack/manufatto type values"@en .
+
+<http://eventour.unimib.it/scheme/route-direction> a skos:ConceptScheme ;
+    rdfs:label "Route direction concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/route-direction/ascending>,
+        <http://eventour.unimib.it/route-direction/descending> ;
+    skos:prefLabel "Route direction values"@en .
+
+<http://eventour.unimib.it/scheme/route-type> a skos:ConceptScheme ;
+    rdfs:label "Route type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/route-type/canonical> ;
+    skos:prefLabel "Route type values"@en .
+
+<http://eventour.unimib.it/scheme/station-layout> a skos:ConceptScheme ;
+    rdfs:label "Station layout concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/station-layout/monofacciale> ;
+    skos:prefLabel "Station layout values"@en .
+
+<http://eventour.unimib.it/scheme/status> a skos:ConceptScheme ;
+    rdfs:label "Status concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/status/active>,
+        <http://eventour.unimib.it/status/existing>,
+        <http://eventour.unimib.it/status/vigente> ;
+    skos:prefLabel "Status values"@en .
+
+<http://eventour.unimib.it/scheme/transport-mode> a skos:ConceptScheme ;
+    rdfs:label "Transport mode concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/transport-mode/bus>,
+        <http://eventour.unimib.it/transport-mode/metro>,
+        <http://eventour.unimib.it/transport-mode/tram> ;
+    skos:prefLabel "Transport mode values"@en .
+
+<http://eventour.unimib.it/scheme/urban-belt> a skos:ConceptScheme ;
+    rdfs:label "Urban belt concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/urban-belt/extra-filoviaria> ;
+    skos:prefLabel "Urban belt values"@en .
+
+<http://eventour.unimib.it/scheme/vehicle-type> a skos:ConceptScheme ;
+    rdfs:label "Vehicle type concept scheme"@en ;
+    skos:hasTopConcept <http://eventour.unimib.it/vehicle-type/velocipedi> ;
+    skos:prefLabel "Vehicle type values"@en .
+
+evt:sequenceNumber a rdf:Property ;
+    rdfs:label "sequence number"@en .
+
+evt:servedByLine a rdf:Property ;
+    rdfs:label "served by line"@en .
+
+evt:serviceCode a rdf:Property ;
+    rdfs:label "service code"@en .
+
+evt:servicePattern a rdf:Property ;
+    rdfs:label "service pattern"@en .
+
+evt:shapeArea a rdf:Property ;
+    rdfs:label "shape area"@en .
+
+evt:shapeLength a rdf:Property ;
+    rdfs:label "shape length"@en .
+
+evt:sourceChargingTypologyCode a rdf:Property ;
+    rdfs:label "source charging typology code"@en .
+
+evt:sourceClassificationCode a rdf:Property ;
+    rdfs:label "source classification code"@en .
+
+evt:sourceIdentifierField a rdf:Property ;
+    rdfs:label "source identifier field"@en .
+
+evt:sourceIdentifierValue a rdf:Property ;
+    rdfs:label "source identifier value"@en .
+
+evt:sourceLineCodes a rdf:Property ;
+    rdfs:label "source line codes"@en .
+
+evt:sourceMultiValue a rdf:Property ;
+    rdfs:label "source multi-value field"@en .
+
+evt:sourceNote a rdf:Property ;
+    rdfs:label "source note"@en .
+
+evt:sourceObjectId a rdf:Property ;
+    rdfs:label "source object identifier"@en .
+
+evt:sourceProvidedArea a rdf:Property ;
+    rdfs:label "source-provided area"@en .
+
+evt:sourceProvidedLength a rdf:Property ;
+    rdfs:label "source-provided length"@en .
+
+evt:sourceResponsibleOrganizationRole a rdf:Property ;
+    rdfs:label "source responsible organization role"@en .
+
+evt:sourceVehicleTypeText a rdf:Property ;
+    rdfs:label "source vehicle type text"@en .
+
+evt:species a rdf:Property ;
+    rdfs:label "species"@en .
+
+evt:stallsPerStructure a rdf:Property ;
+    rdfs:label "stalls per structure"@en .
+
+evt:startTime a rdf:Property ;
+    rdfs:label "start time"@en .
+
+evt:stationLayoutType a rdf:Property ;
+    rdfs:label "station layout type"@en .
+
+evt:stationNumber a rdf:Property ;
+    rdfs:label "station number"@en .
+
+evt:status a rdf:Property ;
+    rdfs:label "status"@en .
+
+evt:stop a rdf:Property ;
+    rdfs:label "stop"@en .
+
+evt:streetFurnitureType a rdf:Property ;
+    rdfs:label "street furniture type"@en .
+
+evt:streetIdentifier a rdf:Property ;
+    rdfs:label "street identifier"@en .
+
+evt:streetName a rdf:Property ;
+    rdfs:label "street name"@en .
+
+evt:streetType a rdf:Property ;
+    rdfs:label "street type"@en .
+
+evt:toiletType a rdf:Property ;
+    rdfs:label "toilet type"@en .
+
+evt:transportMode a rdf:Property ;
+    rdfs:label "transport mode"@en .
+
+evt:trunkDiameter a rdf:Property ;
+    rdfs:label "trunk diameter"@en .
+
+evt:trunkDiameterCm a rdf:Property ;
+    rdfs:label "trunk diameter in centimeters"@en .
+
+evt:urbanBelt a rdf:Property ;
+    rdfs:label "urban belt"@en .
+
+evt:uriPatternNote a rdf:Property ;
+    rdfs:label "URI pattern note"@en .
+
+evt:validFrom a rdf:Property ;
+    rdfs:label "valid from"@en .
+
+evt:validTo a rdf:Property ;
+    rdfs:label "valid to"@en .
+
+evt:validUntilDescription a rdf:Property ;
+    rdfs:label "valid until description"@en .
+
+evt:vehicleType a rdf:Property ;
+    rdfs:label "vehicle type"@en .
+
+evt:variety a rdf:Property ;
+    rdfs:label "variety"@en .
+
+evt:year a rdf:Property ;
+    rdfs:label "year"@en .
+
+evt:UrbanPlace a owl:Class ;
+    rdfs:label "Urban place"@en ;
+    rdfs:subClassOf evt:UrbanEntity,
+        geo:Feature .
+
+<http://eventour.unimib.it/category/archaeological-ancient-site> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "archaeological ancient site" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/cemetery-funerary-heritage> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "cemetery funerary heritage" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/district-streetscape> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "district streetscape" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/gallery-art-space> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "gallery art space" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/historic-architecture> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "historic architecture" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/monument-memorial> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "monument memorial" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/museum-collection> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "museum collection" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/park-garden-nature> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "park garden nature" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/performing-arts-entertainment> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "performing arts entertainment" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/public-art> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "public art" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/religious-heritage> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "religious heritage" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/science-education-attraction> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "science education attraction" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/special-interest-attraction> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "special interest attraction" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/category/urban-landmark> a skos:Concept ;
+    skos:inScheme evt:EventourCategoryScheme ;
+    skos:prefLabel "urban landmark" ;
+    skos:topConceptOf evt:EventourCategoryScheme .
+
+<http://eventour.unimib.it/curation-label/context-entity> a skos:Concept ;
+    skos:inScheme evt:CurationLabelScheme ;
+    skos:prefLabel "Context Entity"@en ;
+    skos:topConceptOf evt:CurationLabelScheme .
+
+<http://eventour.unimib.it/curation-label/primary-poi> a skos:Concept ;
+    skos:inScheme evt:CurationLabelScheme ;
+    skos:prefLabel "Primary POI"@en ;
+    skos:topConceptOf evt:CurationLabelScheme .
+
+<http://eventour.unimib.it/curation-label/secondary-poi> a skos:Concept ;
+    skos:inScheme evt:CurationLabelScheme ;
+    skos:prefLabel "Secondary POI"@en ;
+    skos:topConceptOf evt:CurationLabelScheme .
+
+<http://eventour.unimib.it/role/context-entity> a skos:Concept ;
+    skos:definition "Geolocated entity that provides semantic background for the urban knowledge graph but is not treated as a candidate destination or redistribution anchor."@en,
+        "Geolocated entity that provides urban context but is not treated as a candidate destination or redistribution anchor."@en ;
+    skos:inScheme evt:EventourRoleScheme ;
+    skos:prefLabel "Context Entity"@en ;
+    skos:topConceptOf evt:EventourRoleScheme .
+
+<http://eventour.unimib.it/role/primary-poi> a skos:Concept ;
+    skos:definition "Culturally or historically salient urban place that can act as a destination anchor for itinerary generation, cultural promotion, and event-tourism applications."@en,
+        "Culturally or historically salient urban place usable as a destination anchor."@en ;
+    skos:inScheme evt:EventourRoleScheme ;
+    skos:prefLabel "Primary POI"@en ;
+    skos:topConceptOf evt:EventourRoleScheme .
+
+<http://eventour.unimib.it/role/secondary-poi> a skos:Concept ;
+    skos:definition "Non-primary geolocated urban place candidate that can support operational tasks such as crowd redistribution, alternative routing, local discovery, or post-event staggering."@en,
+        "Non-primary geolocated urban place candidate usable for operational tasks such as crowd redistribution or alternative routing."@en ;
+    skos:inScheme evt:EventourRoleScheme ;
+    skos:prefLabel "Secondary POI"@en ;
+    skos:topConceptOf evt:EventourRoleScheme .
+
+evt:AdministrativeArea a owl:Class ;
+    rdfs:label "Administrative area"@en ;
+    rdfs:subClassOf geo:Feature .
+
+evt:StreetFurniture a owl:Class ;
+    rdfs:label "Street furniture"@en ;
+    rdfs:subClassOf evt:PhysicalAsset .
+
+evt:Infrastructure a owl:Class ;
+    rdfs:label "Infrastructure"@en ;
+    rdfs:subClassOf evt:PhysicalAsset .
+
+evt:Place a owl:Class ;
+    rdfs:label "Place"@en ;
+    rdfs:comment "Geolocated place entity in the Eventour semantic place layer."@en ;
+    rdfs:subClassOf evt:UrbanPlace .
+
+evt:PhysicalAsset a owl:Class ;
+    rdfs:label "Physical asset"@en ;
+    rdfs:subClassOf evt:UrbanThing,
+        geo:Feature .
+
+evt:UrbanEntity a owl:Class ;
+    rdfs:label "Urban entity"@en ;
+    rdfs:comment "Top-level class for entities represented in an Eventour city knowledge graph."@en .
+
+evt:TransportEntity a owl:Class ;
+    rdfs:label "Transport entity"@en ;
+    rdfs:subClassOf evt:UrbanThing .
+
+evt:CurationLabelScheme a skos:ConceptScheme ;
+    skos:hasTopConcept <http://eventour.unimib.it/curation-label/context-entity>,
+        <http://eventour.unimib.it/curation-label/primary-poi>,
+        <http://eventour.unimib.it/curation-label/secondary-poi> ;
+    skos:prefLabel "Eventour curation label scheme"@en .
+
+evt:EventourRoleScheme a skos:ConceptScheme ;
+    skos:hasTopConcept <http://eventour.unimib.it/role/context-entity>,
+        <http://eventour.unimib.it/role/primary-poi>,
+        <http://eventour.unimib.it/role/secondary-poi> ;
+    skos:prefLabel "Eventour role scheme"@en .
+
+evt:UrbanThing a owl:Class ;
+    rdfs:label "Urban thing"@en ;
+    rdfs:subClassOf evt:UrbanEntity .
+
+evt:Facility a owl:Class ;
+    rdfs:label "Facility"@en ;
+    rdfs:subClassOf evt:PhysicalAsset .
+
+evt:ServiceAccessPoint a owl:Class ;
+    rdfs:label "Service access point"@en ;
+    rdfs:subClassOf evt:UrbanThing .
+
+evt:EventourCategoryScheme a skos:ConceptScheme ;
+    skos:hasTopConcept <http://eventour.unimib.it/category/archaeological-ancient-site>,
+        <http://eventour.unimib.it/category/cemetery-funerary-heritage>,
+        <http://eventour.unimib.it/category/district-streetscape>,
+        <http://eventour.unimib.it/category/gallery-art-space>,
+        <http://eventour.unimib.it/category/historic-architecture>,
+        <http://eventour.unimib.it/category/monument-memorial>,
+        <http://eventour.unimib.it/category/museum-collection>,
+        <http://eventour.unimib.it/category/park-garden-nature>,
+        <http://eventour.unimib.it/category/performing-arts-entertainment>,
+        <http://eventour.unimib.it/category/public-art>,
+        <http://eventour.unimib.it/category/religious-heritage>,
+        <http://eventour.unimib.it/category/science-education-attraction>,
+        <http://eventour.unimib.it/category/special-interest-attraction>,
+        <http://eventour.unimib.it/category/urban-landmark> ;
+    skos:prefLabel "Eventour category scheme"@en .

@@ -1,0 +1,136 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-113> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - LORENTEGGIO - 113" ;
+    dcterms:identifier "vedovelle:113" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-113> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-12686> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - BANDE NERE - 12686" ;
+    dcterms:identifier "vedovelle:12686" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-12686> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-369> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - GIAMBELLINO - 369" ;
+    dcterms:identifier "vedovelle:369" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-369> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-4177> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - STADIO - IPPODROMI - 4177" ;
+    dcterms:identifier "vedovelle:4177" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4177> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-4187> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - Q.RE GALLARATESE - Q.RE SAN LEONARDO - LAMPUGNANO - 4187" ;
+    dcterms:identifier "vedovelle:4187" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4187> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-43> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - STADIO - IPPODROMI - 43" ;
+    dcterms:identifier "vedovelle:43" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-43> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-450> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - BANDE NERE - 450" ;
+    dcterms:identifier "vedovelle:450" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-450> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-5407> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - LORENTEGGIO - 5407" ;
+    dcterms:identifier "vedovelle:5407" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-5407> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-57> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - PARCO BOSCO IN CITTA' - 57" ;
+    dcterms:identifier "vedovelle:57" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-57> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/entity/vedovelle/vedovelle-66> a geo:Feature,
+        ev:SupportService,
+        ev:UrbanEntity ;
+    rdfs:label "Vedovella - LORENTEGGIO - 66" ;
+    dcterms:identifier "vedovelle:66" ;
+    dcterms:source <https://eventour.org/kg/milan/source/vedovelle> ;
+    geo:hasGeometry <https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-66> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/vedovelle> ;
+    ev:hasPrimaryFamily ev:SupportService .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-113> a geo:Geometry ;
+    geo:asWKT "POINT (9.130817266624764 45.45552751148572)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-12686> a geo:Geometry ;
+    geo:asWKT "POINT (9.133141801683118 45.466087235927034)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-369> a geo:Geometry ;
+    geo:asWKT "POINT (9.129715509023097 45.44423593843171)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4177> a geo:Geometry ;
+    geo:asWKT "POINT (9.118482572890422 45.475740896845565)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-4187> a geo:Geometry ;
+    geo:asWKT "POINT (9.105256719472628 45.504279305467456)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-43> a geo:Geometry ;
+    geo:asWKT "POINT (9.133283749284725 45.475414826649924)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-450> a geo:Geometry ;
+    geo:asWKT "POINT (9.138156332802376 45.45523660672675)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-5407> a geo:Geometry ;
+    geo:asWKT "POINT (9.104075763359273 45.45100463400172)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-57> a geo:Geometry ;
+    geo:asWKT "POINT (9.10717081331941 45.48267991408669)"^^geo:wktLiteral .
+
+<https://eventour.org/kg/milan/geometry/vedovelle/vedovelle-66> a geo:Geometry ;
+    geo:asWKT "POINT (9.121648321510166 45.45234123104463)"^^geo:wktLiteral .
+

@@ -1,0 +1,12 @@
+name: eventour-resource
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdflib
+  - pyshacl
+  - geopandas
+  - shapely
+  - pyyaml
+  - pandas
+

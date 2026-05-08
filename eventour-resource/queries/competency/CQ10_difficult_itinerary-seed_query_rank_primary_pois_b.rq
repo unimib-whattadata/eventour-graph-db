@@ -1,0 +1,54 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+
+
+# CQ10. Difficult itinerary-seed query: rank primary POIs by nearby operational
+# support, combining transport, toilets, drinking fountains, and bike sharing.
+# Requires GeoSPARQL distance support.
+################################################################################
+
+SELECT ?poi ?label ?categoryLabel
+       (COUNT(DISTINCT ?stop) AS ?stops300m)
+       (COUNT(DISTINCT ?toilet) AS ?toilets300m)
+       (COUNT(DISTINCT ?fountain) AS ?fountains300m)
+       (COUNT(DISTINCT ?bikeMi) AS ?bikeMi500m)
+       ((COUNT(DISTINCT ?stop) + COUNT(DISTINCT ?toilet) + COUNT(DISTINCT ?fountain) + COUNT(DISTINCT ?bikeMi)) AS ?supportScore)
+WHERE {
+  ?poi a evt:Place ;
+       evt:hasEventourRole <http://eventour.unimib.it/role/primary-poi> ;
+       rdfs:label ?label ;
+       geo:hasDefaultGeometry/geo:asWKT ?poiWKT .
+  OPTIONAL { ?poi evt:hasEventourCategory/skos:prefLabel ?categoryLabel . }
+
+  OPTIONAL {
+    ?stop a evt:Stop ; geo:hasDefaultGeometry/geo:asWKT ?stopWKT .
+    BIND(geof:distance(?poiWKT, ?stopWKT, uom:metre) AS ?stopDistanceM)
+    FILTER(?stopDistanceM <= 300)
+  }
+  OPTIONAL {
+    ?toilet a evt:PublicToilet ; geo:hasDefaultGeometry/geo:asWKT ?toiletWKT .
+    BIND(geof:distance(?poiWKT, ?toiletWKT, uom:metre) AS ?toiletDistanceM)
+    FILTER(?toiletDistanceM <= 300)
+  }
+  OPTIONAL {
+    ?fountain a evt:DrinkingFountain ; geo:hasDefaultGeometry/geo:asWKT ?fountainWKT .
+    BIND(geof:distance(?poiWKT, ?fountainWKT, uom:metre) AS ?fountainDistanceM)
+    FILTER(?fountainDistanceM <= 300)
+  }
+  OPTIONAL {
+    ?bikeMi a evt:BikeSharingStation ; geo:hasDefaultGeometry/geo:asWKT ?bikeMiWKT .
+    BIND(geof:distance(?poiWKT, ?bikeMiWKT, uom:metre) AS ?bikeMiDistanceM)
+    FILTER(?bikeMiDistanceM <= 500)
+  }
+}
+GROUP BY ?poi ?label ?categoryLabel
+ORDER BY DESC(?supportScore) LCASE(STR(?label))
+LIMIT 50

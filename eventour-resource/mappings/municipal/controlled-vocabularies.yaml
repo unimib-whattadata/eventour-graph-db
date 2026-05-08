@@ -1,0 +1,15 @@
+schemes:
+  - status
+  - transport-mode
+  - route-direction
+  - day-type
+  - charging-typology
+  - placement-context
+  - station-layout-type
+  - vehicle-type
+  - commercial-category
+  - toilet-type
+policy:
+  categorical_source_values: "Represent as SKOS concepts when values are controlled or repeated."
+  ambiguous_compact_codes: "Preserve source code and expand only when the mapping is explicit."
+

@@ -1,0 +1,42 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+
+
+# CQ5. Crowd-staggering query: given an event location, retrieve secondary POIs
+# within 1 km that also have a public transport stop within 300 m.
+# Replace the VALUES WKT with the event venue/event coordinate.
+# Requires GeoSPARQL distance support.
+################################################################################
+
+SELECT ?secondaryPoi ?label ?poiDistanceM ?nearestStop ?nearestStopLabel ?stopDistanceM
+WHERE {
+  VALUES ?eventWKT {
+    "POINT (9.1919 45.4642)"^^geo:wktLiteral
+  }
+
+  ?secondaryPoi a evt:Place ;
+      evt:hasEventourRole <http://eventour.unimib.it/role/secondary-poi> ;
+      rdfs:label ?label ;
+      geo:hasDefaultGeometry/geo:asWKT ?poiWKT .
+
+  BIND(geof:distance(?eventWKT, ?poiWKT, uom:metre) AS ?poiDistanceM)
+  FILTER(?poiDistanceM <= 1000)
+
+  ?nearestStop a evt:Stop ;
+      rdfs:label ?nearestStopLabel ;
+      geo:hasDefaultGeometry/geo:asWKT ?stopWKT .
+  BIND(geof:distance(?poiWKT, ?stopWKT, uom:metre) AS ?stopDistanceM)
+  FILTER(?stopDistanceM <= 300)
+}
+ORDER BY ?poiDistanceM ?stopDistanceM
+LIMIT 100
+
+################################################################################

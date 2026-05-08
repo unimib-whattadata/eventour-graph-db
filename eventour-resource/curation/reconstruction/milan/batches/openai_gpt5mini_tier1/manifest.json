@@ -1,0 +1,23 @@
+{
+  "input_path": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/intermediate/wikidata_prompt_batch.jsonl",
+  "model": "gpt-5-mini",
+  "max_output_tokens": 160,
+  "max_batch_input_tokens": 4500000,
+  "total_requests": 4374,
+  "estimated_total_input_tokens": 8363164,
+  "batch_count": 2,
+  "batches": [
+    {
+      "batch_index": 0,
+      "request_count": 2351,
+      "estimated_input_tokens": 4498319,
+      "path": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/batches/openai_gpt5mini_tier1/openai_batch_000.jsonl"
+    },
+    {
+      "batch_index": 1,
+      "request_count": 2023,
+      "estimated_input_tokens": 3864845,
+      "path": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/batches/openai_gpt5mini_tier1/openai_batch_001.jsonl"
+    }
+  ]
+}

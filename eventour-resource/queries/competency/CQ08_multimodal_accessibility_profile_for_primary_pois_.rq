@@ -1,0 +1,55 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX evt: <http://eventour.unimib.it/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+
+
+# CQ8. Multimodal accessibility profile for primary POIs: count nearby public
+# transport stops, BikeMI stations, bicycle parking areas, and parking
+# facilities.
+# Requires GeoSPARQL distance support.
+################################################################################
+
+SELECT ?poi ?label
+       (COUNT(DISTINCT ?stop) AS ?nearbyStops)
+       (COUNT(DISTINCT ?bikeMi) AS ?nearbyBikeMiStations)
+       (COUNT(DISTINCT ?bikeParking) AS ?nearbyBicycleParkingAreas)
+       (COUNT(DISTINCT ?parking) AS ?nearbyParkingFacilities)
+WHERE {
+  ?poi a evt:Place ;
+       evt:hasEventourRole <http://eventour.unimib.it/role/primary-poi> ;
+       rdfs:label ?label ;
+       geo:hasDefaultGeometry/geo:asWKT ?poiWKT .
+
+  OPTIONAL {
+    ?stop a evt:Stop ; geo:hasDefaultGeometry/geo:asWKT ?stopWKT .
+    BIND(geof:distance(?poiWKT, ?stopWKT, uom:metre) AS ?stopDistanceM)
+    FILTER(?stopDistanceM <= 300)
+  }
+  OPTIONAL {
+    ?bikeMi a evt:BikeSharingStation ; geo:hasDefaultGeometry/geo:asWKT ?bikeMiWKT .
+    BIND(geof:distance(?poiWKT, ?bikeMiWKT, uom:metre) AS ?bikeMiDistanceM)
+    FILTER(?bikeMiDistanceM <= 500)
+  }
+  OPTIONAL {
+    ?bikeParking a evt:BicycleParkingArea ; geo:hasDefaultGeometry/geo:asWKT ?bikeParkingWKT .
+    BIND(geof:distance(?poiWKT, ?bikeParkingWKT, uom:metre) AS ?bikeParkingDistanceM)
+    FILTER(?bikeParkingDistanceM <= 300)
+  }
+  OPTIONAL {
+    ?parking a evt:ParkingFacility ; geo:hasDefaultGeometry/geo:asWKT ?parkingWKT .
+    BIND(geof:distance(?poiWKT, ?parkingWKT, uom:metre) AS ?parkingDistanceM)
+    FILTER(?parkingDistanceM <= 700)
+  }
+}
+GROUP BY ?poi ?label
+ORDER BY DESC(?nearbyStops) DESC(?nearbyBikeMiStations) DESC(?nearbyBicycleParkingAreas)
+LIMIT 100
+
+################################################################################

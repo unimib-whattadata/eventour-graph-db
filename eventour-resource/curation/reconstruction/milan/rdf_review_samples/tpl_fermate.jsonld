@@ -1,0 +1,602 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10027",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "63,151 | 10027"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10027"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10027"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via dei Salici dopo 6"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via dei Salici dopo 6"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10025",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.052470685154772 45.55703085695196)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10023",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "63 | 10023"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10023"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10023"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Mosca prima di Via Spinazzola"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Mosca prima di Via Spinazzola"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10022",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.071217240235763 45.45214075959212)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10018",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "48 | 10018"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10018"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10018"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "C.so Sempione, 83 prima di Via E. Filiberto"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "C.so Sempione, 83 prima di Via E. Filiberto"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10025",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "561 | 10025"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10025"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10025"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Viale Alfa Romeo dopo Museo Alfa Romeo"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Viale Alfa Romeo dopo Museo Alfa Romeo"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10003",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "89 | 10003"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10003"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10003"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Bovisasca, 18 dopo Via C.Battisti"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Bovisasca, 18 dopo Via C.Battisti"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10003",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.148258113563548 45.52690564197453)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10021",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.05271297848242 45.55840771785539)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10021",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "561 | 10021"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10021"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10021"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Viale Alfa Romeo fronte civico 17"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Viale Alfa Romeo fronte civico 17"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10008",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "89 | 10008"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10008"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10008"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Bovisasca, 15/A prima di Via Baracca"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Bovisasca, 15/A prima di Via Baracca"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10026",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.161001745589838 45.45766636123295)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10026",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "68 | 10026"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10026"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10026"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Bergognone dopo via Foppa"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Bergognone dopo via Foppa"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10018",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.158053935355326 45.48628322294479)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10024",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.073516311556109 45.45361998090345)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10024",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "63 | 10024"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10024"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10024"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Mosca, 42 dopo Via Spinazzola"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Mosca, 42 dopo Via Spinazzola"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/tpl_surface_stops/tpl_surface_stops-10022",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "63 | 10022"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "tpl_surface_stops:10022"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10022"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Via Mosca prima V.Val Cavallina"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/tpl_surface_stops"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ],
+    "https://schema.org/streetAddress": [
+      {
+        "@value": "Via Mosca prima V.Val Cavallina"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10027",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.079401698927086 45.45309399846573)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10023",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.07367294128026 45.45359287733268)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/tpl_surface_stops/tpl_surface_stops-10008",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.148454596861278 45.52675237167478)"
+      }
+    ]
+  }
+]

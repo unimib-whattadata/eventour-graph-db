@@ -1,0 +1,71 @@
+# Phase 2 transport conversion mapping.
+#
+# This file is intentionally lightweight because the transport converter contains
+# dataset-specific logic and field aliases. You can adjust filenames or mode
+# scopes here without editing the Python script.
+
+defaults:
+  language: "it"
+  crs_uri: "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+  publisher_uri: "http://eventour.unimib.it/organization/comune-di-milano"
+  pipeline_agent_uri: "http://eventour.unimib.it/agent/eventour-pipeline"
+  transform_date: "2026-04-29"
+
+datasets:
+  tpl_fermate:
+    file: "tpl_fermate.geojson"
+    kind: "stops"
+    stop_scope: "surface"
+    dataset_uri: "dataset/tpl_fermate"
+    transform_activity_uri: "activity/transform/tpl_fermate/2026-04-29"
+
+  tpl_metrofermate:
+    file: "tpl_metrofermate.geojson"
+    kind: "stops"
+    stop_scope: "metro"
+    dataset_uri: "dataset/tpl_metrofermate"
+    transform_activity_uri: "activity/transform/tpl_metrofermate/2026-04-29"
+
+  tpl_percorsi:
+    file: "tpl_percorsi.geojson"
+    kind: "routes"
+    route_scope: "surface"
+    dataset_uri: "dataset/tpl_percorsi"
+    transform_activity_uri: "activity/transform/tpl_percorsi/2026-04-29"
+
+  tpl_metropercorsi:
+    file: "tpl_metropercorsi.geojson"
+    kind: "routes"
+    route_scope: "metro"
+    dataset_uri: "dataset/tpl_metropercorsi"
+    transform_activity_uri: "activity/transform/tpl_metropercorsi/2026-04-29"
+
+  tpl_sequenza:
+    file: "tpl_sequenza.geojson"
+    kind: "sequences"
+    route_scope: "surface"
+    stop_scope: "surface"
+    dataset_uri: "dataset/tpl_sequenza"
+    transform_activity_uri: "activity/transform/tpl_sequenza/2026-04-29"
+
+  tpl_metrosequenza:
+    file: "tpl_metrosequenza.geojson"
+    kind: "sequences"
+    route_scope: "metro"
+    stop_scope: "metro"
+    dataset_uri: "dataset/tpl_metrosequenza"
+    transform_activity_uri: "activity/transform/tpl_metrosequenza/2026-04-29"
+
+  tpl_orari:
+    file: "tpl_orari.geojson"
+    kind: "timetables"
+    route_scope: "surface"
+    dataset_uri: "dataset/tpl_orari"
+    transform_activity_uri: "activity/transform/tpl_orari/2026-04-29"
+
+  tpl_metroorari:
+    file: "tpl_metroorari.geojson"
+    kind: "timetables"
+    route_scope: "metro"
+    dataset_uri: "dataset/tpl_metroorari"
+    transform_activity_uri: "activity/transform/tpl_metroorari/2026-04-29"

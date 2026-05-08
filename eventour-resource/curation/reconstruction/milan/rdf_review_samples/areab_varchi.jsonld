@@ -1,0 +1,552 @@
+[
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-9",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "IN PRE-ESERCIZIO | Decreto 255 del 4 giugno 2021"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:9"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "009 - RIZZOLI"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-2",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:2"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "002 - CIMA"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-11",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.235612912317729 45.49605078656312)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-10",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:10"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "010 - CARNIA"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-11",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:11"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "011 - PALMANOVA 2"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-1",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:1"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "001 - CORELLI"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-2",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.253812653805587 45.4730508564607)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-3",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.251498777293572 45.47725916493989)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-5",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:5"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "005 - MONNERET"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-10",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.23547681406818 45.49549245057083)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-6",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:6"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "006 - ROMBON 1"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-4",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:4"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "004 - CADUTI DI MARCINELLE"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-4",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.258809556366325 45.48326465026319)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-1",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.261429094909207 45.47142306170098)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-3",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:3"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "003 - RUBATTINO"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-5",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.24634856885281 45.48651592003014)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-7",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.246229181738695 45.487001642531496)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-9",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.2550116905933 45.508345642941514)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-6",
+    "@type": [
+      "http://www.opengis.net/ont/geosparql#Geometry"
+    ],
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (9.246033602993082 45.48671920091301)"
+      }
+    ]
+  },
+  {
+    "@id": "https://eventour.org/kg/milan/entity/area_b_gates/area_b_gates-7",
+    "@type": [
+      "https://eventour.org/ontology/UrbanEntity",
+      "https://eventour.org/ontology/MobilityNode",
+      "http://www.opengis.net/ont/geosparql#Feature"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "ATTIVI E SANZIONANTI | Decreto 493 del 18 Dicembre 2019"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "area_b_gates:7"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+      {
+        "@id": "https://eventour.org/kg/milan/geometry/area_b_gates/area_b_gates-7"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "007 - ROMBON 2"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://eventour.org/kg/milan/source/area_b_gates"
+      }
+    ],
+    "https://eventour.org/ontology/hasPrimaryFamily": [
+      {
+        "@id": "https://eventour.org/ontology/MobilityNode"
+      }
+    ]
+  }
+]

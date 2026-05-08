@@ -1,0 +1,34 @@
+{
+  "id": "batch_69bdc3033fa881908635eccb5d6e2ef3",
+  "completion_window": "24h",
+  "created_at": 1774043907,
+  "endpoint": "/v1/responses",
+  "input_file_id": "file-Kx8RvFM1ZQhpGscRbVtQ3X",
+  "object": "batch",
+  "status": "completed",
+  "completed_at": 1774045305,
+  "expires_at": 1774130307,
+  "finalizing_at": 1774045098,
+  "in_progress_at": 1774043970,
+  "metadata": {
+    "source_file": "/Users/blespa/Desktop/Eventour RT ISWC 2026/implementation/data/cities/milan/batches/openai_gpt5mini_tier1_evidence_v4/openai_batch_000.jsonl"
+  },
+  "model": "gpt-5-mini-2025-08-07",
+  "output_file_id": "file-J4SXo4gLpQygQXP1GqZaiS",
+  "request_counts": {
+    "completed": 1493,
+    "failed": 0,
+    "total": 1493
+  },
+  "usage": {
+    "input_tokens": 4359474,
+    "input_tokens_details": {
+      "cached_tokens": 3150208
+    },
+    "output_tokens": 293750,
+    "output_tokens_details": {
+      "reasoning_tokens": 157696
+    },
+    "total_tokens": 4653224
+  }
+}

@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ev: <https://eventour.org/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-0> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 83 - 5812 - L" ;
+    dcterms:description "INV2024-2025 | 06:34 -> 01:40 | daily 33 | peak 5 | offpeak 0 | evening 8" ;
+    dcterms:identifier "tpl_surface_schedules:0" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-1> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 49 - 8090 - F" ;
+    dcterms:description "INV2024-2025 | 06:15 -> 00:48 | daily 72 | peak 8 | offpeak 7 | evening 7" ;
+    dcterms:identifier "tpl_surface_schedules:1" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-2> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 63 - 10770 - F" ;
+    dcterms:description "INV2024-2025 | 06:17 -> 01:37 | daily 21 | peak 1 | offpeak 0 | evening 8" ;
+    dcterms:identifier "tpl_surface_schedules:2" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-3> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 84 - 10124 - S" ;
+    dcterms:description "INV2024-2025 | 05:15 -> 01:01 | daily 99 | peak 13 | offpeak 11 | evening 6" ;
+    dcterms:identifier "tpl_surface_schedules:3" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-4> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 151 - 12453 - L" ;
+    dcterms:description "INV2024-2025 | 01:24 -> 01:22 | daily 10 | peak 0 | offpeak 0 | evening 0" ;
+    dcterms:identifier "tpl_surface_schedules:4" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-5> a ev:UrbanEntity ;
+    rdfs:label "TRAM - schedule - 15 - 9902 - F" ;
+    dcterms:description "INV2024-2025 | 04:06 -> 14:12 | daily 8 | peak 0 | offpeak 0 | evening 0" ;
+    dcterms:identifier "tpl_surface_schedules:5" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-6> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 166 - 8843 - L" ;
+    dcterms:description "INV2024-2025 | 19:25 -> 23:16 | daily 5 | peak 0 | offpeak 0 | evening 1" ;
+    dcterms:identifier "tpl_surface_schedules:6" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-7> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 87 - 8758 - S" ;
+    dcterms:description "INV2024-2025 | 06:00 -> 00:56 | daily 68 | peak 8 | offpeak 8 | evening 6" ;
+    dcterms:identifier "tpl_surface_schedules:7" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-8> a ev:UrbanEntity ;
+    rdfs:label "BUS - schedule - 924 - 13158 - F" ;
+    dcterms:description "INV2024-2025 | 06:00 -> 23:39 | daily 25 | peak 2 | offpeak 2 | evening 2" ;
+    dcterms:identifier "tpl_surface_schedules:8" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+
+<https://eventour.org/kg/milan/entity/tpl_surface_schedules/tpl_surface_schedules-9> a ev:UrbanEntity ;
+    rdfs:label "TRAM - schedule - 16 - 12162 - F" ;
+    dcterms:description "INV2024-2025 | 06:00 -> 01:56 | daily 76 | peak 8 | offpeak 7 | evening 7" ;
+    dcterms:identifier "tpl_surface_schedules:9" ;
+    dcterms:source <https://eventour.org/kg/milan/source/tpl_surface_schedules> ;
+    prov:wasDerivedFrom <https://eventour.org/kg/milan/source/tpl_surface_schedules> .
+

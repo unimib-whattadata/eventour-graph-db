@@ -1,0 +1,19 @@
+PREFIX schema: <http://schema.org/>
+
+SELECT DISTINCT
+  ?item ?itemLabel ?itemDescription ?coord
+  ?directClass ?directClassLabel
+WHERE {
+  ?item wdt:P625 ?coord ;
+        wdt:P131+ wd:Q490 ;
+        wdt:P31 ?directClass .
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en" .
+    ?item rdfs:label ?itemLabel .
+    ?item schema:description ?itemDescription .
+    ?directClass rdfs:label ?directClassLabel .
+  }
+}
+ORDER BY ?itemLabel
+LIMIT 10000

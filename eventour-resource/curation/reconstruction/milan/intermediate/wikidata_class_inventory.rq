@@ -1,0 +1,13 @@
+SELECT ?directClass ?directClassLabel (COUNT(DISTINCT ?item) AS ?count)
+WHERE {
+  ?item wdt:P625 ?coord ;
+        wdt:P131+ wd:Q490 ;
+        wdt:P31 ?directClass .
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en" .
+  }
+}
+GROUP BY ?directClass ?directClassLabel
+ORDER BY DESC(?count)
+LIMIT 1000
