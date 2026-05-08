@@ -32,6 +32,24 @@ Coolify usera quel `:7200` per capire verso quale porta del container fare proxy
 
 Non e necessario esporre una porta host con `ports:` in produzione. Il compose usa `expose: 7200`, cosi il servizio resta dietro al proxy di Coolify.
 
+### Health check (importante)
+
+In GraphDB, una `curl` semplice su `/` puo restituire `406 Not Acceptable` (dipende dall'header `Accept`).
+Se il check usa `curl -f http://127.0.0.1:7200/` il container risulta `unhealthy` e Coolify puo mostrare `No service available`.
+
+Per questo il compose include un healthcheck esplicito:
+
+```yaml
+healthcheck:
+  test:
+    [
+      "CMD-SHELL",
+      "curl -fsS -H 'Accept: text/html' http://127.0.0.1:7200/ >/dev/null || exit 1",
+    ]
+```
+
+Se hai gia una risorsa in Coolify con check custom non compatibile, rimuovilo o allinealo a questo comando e fai redeploy.
+
 ## 3. Variabili consigliate
 
 Coolify rilevera queste variabili dal compose:

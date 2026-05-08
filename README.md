@@ -45,6 +45,7 @@ Il file `docker-compose.yml` di root e pensato anche per produzione/Coolify:
 - usa l'immagine ufficiale `ontotext/graphdb`;
 - espone internamente la porta container `7200`;
 - salva i dati in volumi persistenti `graphdb_home` e `graphdb_import`;
+- include un healthcheck compatibile con GraphDB e Coolify;
 - non pubblica porte host direttamente, lasciando il routing al proxy di Coolify.
 
 Guida passo passo: [docs/coolify.md](docs/coolify.md).

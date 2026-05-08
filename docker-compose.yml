@@ -8,6 +8,16 @@ services:
       GDB_JAVA_OPTS: "${GDB_JAVA_OPTS:--Xms1g -Xmx4g}"
       graphdb.workbench.importDirectory: "/opt/graphdb/home/graphdb-import"
       graphdb.workbench.maxUploadSize: "${GRAPHDB_WORKBENCH_MAX_UPLOAD_SIZE:-2147483648}"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS -H 'Accept: text/html' http://127.0.0.1:7200/ >/dev/null || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
     volumes:
       - graphdb_home:/opt/graphdb/home
       - graphdb_import:/opt/graphdb/home/graphdb-import
