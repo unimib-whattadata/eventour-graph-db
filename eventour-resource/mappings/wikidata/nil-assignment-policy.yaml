@@ -1,6 +1,0 @@
-method: "point-in-polygon"
-reference_layer: "Comune di Milano NIL polygon dataset"
-predicate: "evt:inNIL"
-geometry_source: "Wikidata coordinates or municipal source geometry"
-failure_policy: "Retain entity with geometry and provenance; do not assign an unsafe NIL."
-
