@@ -144,6 +144,19 @@ Esempio con lo script incluso:
 ./scripts/query.sh queries/example.rq
 ```
 
+Lo script ora applica protezioni utili in produzione:
+
+- lock locale (`flock`) per evitare burst concorrenti sullo stesso host;
+- timeout lato client (`QUERY_TIMEOUT_SEC`, default `120`);
+- timeout di connessione (`CONNECT_TIMEOUT_SEC`, default `10`);
+- `fail-with-body` per ottenere subito l'errore SPARQL.
+
+Esempio con timeout custom:
+
+```bash
+QUERY_TIMEOUT_SEC=60 ./scripts/query.sh queries/example.rq
+```
+
 Equivalente con `curl`:
 
 ```bash
@@ -154,6 +167,18 @@ curl \
 ```
 
 GraphDB espone un endpoint SPARQL per ogni repository nel formato `http://localhost:7200/repositories/<repo-id>`: <https://graphdb.ontotext.com/documentation/11.3/rdf4j-rest-api.html#using-the-rdf4j-rest-api-s-sparql-endpoints>.
+
+Per eseguire piu query senza saturare il server, usa il runner seriale:
+
+```bash
+./scripts/run-queries-serial.sh ./queries
+```
+
+Oppure specifica file singoli:
+
+```bash
+./scripts/run-queries-serial.sh q1.rq q2.rq q3.rq
+```
 
 ## Caricare `.nt` da terminale
 
@@ -190,3 +215,23 @@ Puoi sovrascriverli cosi:
 REPO_ID=altro_repo ./scripts/query.sh queries/example.rq
 GRAPHDB_URL=http://localhost:7201 ./scripts/query.sh queries/example.rq
 ```
+
+## Guardrail anti-saturazione
+
+Su repository con query pesanti o richieste multiple simultanee, imposta timeout e limiti lato GraphDB:
+
+```bash
+GRAPHDB_URL=http://localhost:7200 \
+REPO_ID=eventour \
+QUERY_TIMEOUT_SEC=90 \
+QUERY_LIMIT_RESULTS=5000 \
+./scripts/configure-repo-guardrails.sh
+```
+
+Questo script imposta:
+
+- `queryTimeout` (secondi);
+- `throwQueryEvaluationExceptionOnTimeout=true`;
+- `queryLimitResults`.
+
+In questo modo le query non restano appese indefinitamente e non bloccano il server sotto carico concorrente.

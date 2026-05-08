@@ -68,6 +68,33 @@ GDB_JAVA_OPTS=-Xms2g -Xmx6g
 
 `GRAPHDB_WORKBENCH_MAX_UPLOAD_SIZE=2147483648` corrisponde a 2 GiB.
 
+### Stabilita con richieste multiple
+
+Con query GeoSPARQL complesse e molte richieste concorrenti, e facile saturare il repository.
+Imposta guardrail lato repository per evitare query "infinite" che bloccano il server:
+
+```bash
+GRAPHDB_URL=https://eventour-graph.disco.unimib.it \
+REPO_ID=eventour \
+QUERY_TIMEOUT_SEC=90 \
+QUERY_LIMIT_RESULTS=5000 \
+./scripts/configure-repo-guardrails.sh
+```
+
+Effetto:
+
+- stop automatico delle query oltre `QUERY_TIMEOUT_SEC`;
+- errore esplicito al timeout (`QueryEvaluationException`) invece di richieste pendenti;
+- limite risultati per evitare risposte enormi in condizioni di carico.
+
+Per batch/query multiple usa esecuzione seriale:
+
+```bash
+./scripts/run-queries-serial.sh ./queries
+```
+
+Se hai un'applicazione client, evita fan-out parallelo aggressivo verso `/repositories/eventour` e applica un limite di concorrenza (es. 1-3 query in parallelo per istanza).
+
 ## 4. Storage persistente
 
 Il compose definisce due volumi:
